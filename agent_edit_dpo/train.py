@@ -46,6 +46,7 @@ def main():
         precompute_ref_log_probs=True, precompute_ref_batch_size=1,
         save_strategy="no", logging_steps=1, report_to=[], seed=7, data_seed=7,
         dataloader_pin_memory=False, disable_tqdm=True)
+    (output / "trainer_configuration.json").write_text(json.dumps(config.to_dict(), indent=2) + "\n")
     started = time.monotonic()
     trainer = DPOTrainer(model=model, args=config, train_dataset=dataset, processing_class=tokenizer,
         peft_config=LoraConfig(r=8, lora_alpha=16, target_modules=["q_proj", "v_proj"],
@@ -54,7 +55,8 @@ def main():
     lengths = []
     for row in rows:
         for choice in ["chosen", "rejected"]:
-            lengths.append(len(tokenizer.apply_chat_template(row["prompt"] + row[choice], tokenize=True)))
+            rendered = tokenizer.apply_chat_template(row["prompt"] + row[choice], tokenize=False)
+            lengths.append(len(tokenizer.encode(rendered, add_special_tokens=False)))
     if max(lengths) > config.max_length:
         raise ValueError(f"Training sequence exceeds fixed context: {max(lengths)}")
     before = {name: param.detach().cpu().clone() for name, param in trainer.model.named_parameters() if param.requires_grad}
