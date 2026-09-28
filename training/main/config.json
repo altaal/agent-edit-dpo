@@ -1,0 +1,30 @@
+{
+  "steps": 40,
+  "seed": 7,
+  "beta": 0.1,
+  "learning_rate": 1e-05,
+  "batch_size": 1,
+  "gradient_accumulation_steps": 1,
+  "max_length": 1024,
+  "lora_rank": 8,
+  "lora_alpha": 16,
+  "target_modules": [
+    "q_proj",
+    "v_proj"
+  ],
+  "dtype": "float32",
+  "device": "mps",
+  "model": {
+    "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775"
+  },
+  "preferences_sha256": "84451c3561b9afad32ccd98879cac2135fb58bc1087d51ccb877ab19ae23b010",
+  "versions": {
+    "torch": "2.14.0",
+    "transformers": "5.17.0",
+    "trl": "1.14.0",
+    "peft": "0.21.0",
+    "datasets": "5.0.1",
+    "accelerate": "1.15.0"
+  }
+}

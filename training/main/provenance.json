@@ -1,0 +1,17 @@
+{
+  "training_source_commit": "586572d6f4e5dc12d9e0e32c8ce2b74f9a5ca54b",
+  "command": "python -m agent_edit_dpo.train --output training/main --steps 40",
+  "source_sha256": {
+    "agent_edit_dpo/__init__.py": "0e7ff35788ad908fcdd05324618107e3653cc4d68ffe5786321ad108c5d759ce",
+    "agent_edit_dpo/data.py": "c9872b3ec31781395f77a18299132747df04b15c54c32511185a910258e475e2",
+    "agent_edit_dpo/download.py": "4bd47fce82a08625ab6e3045dbf642ee7dc1d8b2bba4fc41b7b60e927bb0a0f9",
+    "agent_edit_dpo/evaluate.py": "55f4780f61cd00332440bd00e86243c49afc65226ed59b9658e04037e7d5b0c3",
+    "agent_edit_dpo/goldens.py": "868f3602d250ea0ee2c90db68b6012a10bd7f0ac862410359fe4231bd39feb64",
+    "agent_edit_dpo/protocol.py": "ef63901c5fe81dc4439d466f7bba1826d62b9bad1749d831759edd595edae9f7",
+    "agent_edit_dpo/train.py": "b6ccc09db43b56e8cdff4a4e6224a49fb23369538e2da8741c87ed258261cabf"
+  },
+  "adapter_sha256": "ca6f666e83263dc8474d078461ae1b030a0ec92f28ea175e3650d9b77d8ed893",
+  "hardware": "Apple Silicon Mac, 32 GiB memory, MPS backend",
+  "smoke_test": "A separate one-step run changed adapter weights. The final run reloaded the untouched base model.",
+  "implementation_correction": "The first smoke run counted chat-template container keys instead of token IDs. The token-length check was corrected before the final run, which measured 667 tokens maximum."
+}
