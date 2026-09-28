@@ -1,0 +1,10 @@
+.venv/
+.model/
+__pycache__/
+*.egg-info/
+build/
+dist/
+.DS_Store
+runs/
+.cache/
+training/smoke/

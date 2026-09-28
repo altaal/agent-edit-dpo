@@ -1,0 +1,38 @@
+{
+  "pairs": 50,
+  "train_pairs": 40,
+  "diagnostic_pairs": 10,
+  "independent_training_tasks": 5,
+  "training_tasks": [
+    "chunked",
+    "merge-intervals",
+    "normalize-method",
+    "parse-bool",
+    "unique-stable"
+  ],
+  "evaluation_tasks": [
+    "clamp",
+    "count-words",
+    "flatten-once",
+    "palindrome",
+    "parse-pairs",
+    "rotate-left",
+    "running-total",
+    "safe-mean",
+    "strip-suffix",
+    "transpose"
+  ],
+  "training_task_sha256": "29f206518cac86bec7b6e627713b0f64c430c87362c7b85be3712c1e3519443d",
+  "evaluation_task_sha256": "f1b48ba279bf1a1fa7f2480fee3d30ae2c2fe3ac51cde905fd10e5ae363ee4f5",
+  "preferences_sha256": "84451c3561b9afad32ccd98879cac2135fb58bc1087d51ccb877ab19ae23b010",
+  "image": {
+    "image": "python@sha256:da047cb8f9d1d98e5c070f5300ba9f7274e33b8fc0e5be5ed88740aed1b95ba9",
+    "image_id": "sha256:da047cb8f9d1d98e5c070f5300ba9f7274e33b8fc0e5be5ed88740aed1b95ba9",
+    "repo_digests": [
+      "python@sha256:da047cb8f9d1d98e5c070f5300ba9f7274e33b8fc0e5be5ed88740aed1b95ba9"
+    ],
+    "architecture": "arm64"
+  },
+  "source": "Authored correct implementations versus constant-return corruptions; no human or model labels.",
+  "diagnostic_limit": "Diagnostic pairs share prompts and chosen answers with training. They are not a generalization estimate."
+}

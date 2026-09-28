@@ -1,0 +1,4303 @@
+[
+  {
+    "id": "normalize-method-00",
+    "chosen": {
+      "passed": true,
+      "checks": 8,
+      "failures": [],
+      "error": null
+    },
+    "rejected": {
+      "passed": false,
+      "checks": 8,
+      "failures": [
+        {
+          "case": 1,
+          "input": "(b'GET',)",
+          "expected": "'GET'",
+          "actual": {
+            "value": null,
+            "exception": null
+          }
+        },
+        {
+          "case": 2,
+          "input": "('POST',)",
+          "expected": "'POST'",
+          "actual": {
+            "value": null,
+            "exception": null
+          }
+        },
+        {
+          "case": 3,
+          "input": "(b'DELETE',)",
+          "expected": "'DELETE'",
+          "actual": {
+            "value": null,
+            "exception": null
+          }
+        },
+        {
+          "case": 4,
+          "input": "('get',)",
+          "expected": "'get'",
+          "actual": {
+            "value": null,
+            "exception": null
+          }
+        },
+        {
+          "case": 5,
+          "input": "(b'',)",
+          "expected": "''",
+          "actual": {
+            "value": null,
+            "exception": null
+          }
+        },
+        {
+          "case": 6,
+          "input": "(42,)",
+          "expected": "TypeError",
+          "actual": {
+            "value": null,
+            "exception": null
+          }
+        },
+        {
+          "case": 7,
+          "input": "(None,)",
+          "expected": "TypeError",
+          "actual": {
+            "value": null,
+            "exception": null
+          }
+        },
+        {
+          "case": 8,
+          "input": "(b'\\xff',)",
+          "expected": "UnicodeDecodeError",
+          "actual": {
+            "value": null,
+            "exception": null
+          }
+        }
+      ],
+      "error": null
+    }
+  },
+  {
+    "id": "normalize-method-01",
+    "chosen": {
+      "passed": true,
+      "checks": 8,
+      "failures": [],
+      "error": null
+    },
+    "rejected": {
+      "passed": false,
+      "checks": 8,
+      "failures": [
+        {
+          "case": 1,
+          "input": "(b'GET',)",
+          "expected": "'GET'",
+          "actual": {
+            "value": 0,
+            "exception": null
+          }
+        },
+        {
+          "case": 2,
+          "input": "('POST',)",
+          "expected": "'POST'",
+          "actual": {
+            "value": 0,
+            "exception": null
+          }
+        },
+        {
+          "case": 3,
+          "input": "(b'DELETE',)",
+          "expected": "'DELETE'",
+          "actual": {
+            "value": 0,
+            "exception": null
+          }
+        },
+        {
+          "case": 4,
+          "input": "('get',)",
+          "expected": "'get'",
+          "actual": {
+            "value": 0,
+            "exception": null
+          }
+        },
+        {
+          "case": 5,
+          "input": "(b'',)",
+          "expected": "''",
+          "actual": {
+            "value": 0,
+            "exception": null
+          }
+        },
+        {
+          "case": 6,
+          "input": "(42,)",
+          "expected": "TypeError",
+          "actual": {
+            "value": 0,
+            "exception": null
+          }
+        },
+        {
+          "case": 7,
+          "input": "(None,)",
+          "expected": "TypeError",
+          "actual": {
+            "value": 0,
+            "exception": null
+          }
+        },
+        {
+          "case": 8,
+          "input": "(b'\\xff',)",
+          "expected": "UnicodeDecodeError",
+          "actual": {
+            "value": 0,
+            "exception": null
+          }
+        }
+      ],
+      "error": null
+    }
+  },
+  {
+    "id": "normalize-method-02",
+    "chosen": {
+      "passed": true,
+      "checks": 8,
+      "failures": [],
+      "error": null
+    },
+    "rejected": {
+      "passed": false,
+      "checks": 8,
+      "failures": [
+        {
+          "case": 1,
+          "input": "(b'GET',)",
+          "expected": "'GET'",
+          "actual": {
+            "value": 1,
+            "exception": null
+          }
+        },
+        {
+          "case": 2,
+          "input": "('POST',)",
+          "expected": "'POST'",
+          "actual": {
+            "value": 1,
+            "exception": null
+          }
+        },
+        {
+          "case": 3,
+          "input": "(b'DELETE',)",
+          "expected": "'DELETE'",
+          "actual": {
+            "value": 1,
+            "exception": null
+          }
+        },
+        {
+          "case": 4,
+          "input": "('get',)",
+          "expected": "'get'",
+          "actual": {
+            "value": 1,
+            "exception": null
+          }
+        },
+        {
+          "case": 5,
+          "input": "(b'',)",
+          "expected": "''",
+          "actual": {
+            "value": 1,
+            "exception": null
+          }
+        },
+        {
+          "case": 6,
+          "input": "(42,)",
+          "expected": "TypeError",
+          "actual": {
+            "value": 1,
+            "exception": null
+          }
+        },
+        {
+          "case": 7,
+          "input": "(None,)",
+          "expected": "TypeError",
+          "actual": {
+            "value": 1,
+            "exception": null
+          }
+        },
+        {
+          "case": 8,
+          "input": "(b'\\xff',)",
+          "expected": "UnicodeDecodeError",
+          "actual": {
+            "value": 1,
+            "exception": null
+          }
+        }
+      ],
+      "error": null
+    }
+  },
+  {
+    "id": "normalize-method-03",
+    "chosen": {
+      "passed": true,
+      "checks": 8,
+      "failures": [],
+      "error": null
+    },
+    "rejected": {
+      "passed": false,
+      "checks": 8,
+      "failures": [
+        {
+          "case": 1,
+          "input": "(b'GET',)",
+          "expected": "'GET'",
+          "actual": {
+            "value": true,
+            "exception": null
+          }
+        },
+        {
+          "case": 2,
+          "input": "('POST',)",
+          "expected": "'POST'",
+          "actual": {
+            "value": true,
+            "exception": null
+          }
+        },
+        {
+          "case": 3,
+          "input": "(b'DELETE',)",
+          "expected": "'DELETE'",
+          "actual": {
+            "value": true,
+            "exception": null
+          }
+        },
+        {
+          "case": 4,
+          "input": "('get',)",
+          "expected": "'get'",
+          "actual": {
+            "value": true,
+            "exception": null
+          }
+        },
+        {
+          "case": 5,
+          "input": "(b'',)",
+          "expected": "''",
+          "actual": {
+            "value": true,
+            "exception": null
+          }
+        },
+        {
+          "case": 6,
+          "input": "(42,)",
+          "expected": "TypeError",
+          "actual": {
+            "value": true,
+            "exception": null
+          }
+        },
+        {
+          "case": 7,
+          "input": "(None,)",
+          "expected": "TypeError",
+          "actual": {
+            "value": true,
+            "exception": null
+          }
+        },
+        {
+          "case": 8,
+          "input": "(b'\\xff',)",
+          "expected": "UnicodeDecodeError",
+          "actual": {
+            "value": true,
+            "exception": null
+          }
+        }
+      ],
+      "error": null
+    }
+  },
+  {
+    "id": "normalize-method-04",
+    "chosen": {
+      "passed": true,
+      "checks": 8,
+      "failures": [],
+      "error": null
+    },
+    "rejected": {
+      "passed": false,
+      "checks": 8,
+      "failures": [
+        {
+          "case": 1,
+          "input": "(b'GET',)",
+          "expected": "'GET'",
+          "actual": {
+            "value": false,
+            "exception": null
+          }
+        },
+        {
+          "case": 2,
+          "input": "('POST',)",
+          "expected": "'POST'",
+          "actual": {
+            "value": false,
+            "exception": null
+          }
+        },
+        {
+          "case": 3,
+          "input": "(b'DELETE',)",
+          "expected": "'DELETE'",
+          "actual": {
+            "value": false,
+            "exception": null
+          }
+        },
+        {
+          "case": 4,
+          "input": "('get',)",
+          "expected": "'get'",
+          "actual": {
+            "value": false,
+            "exception": null
+          }
+        },
+        {
+          "case": 5,
+          "input": "(b'',)",
+          "expected": "''",
+          "actual": {
+            "value": false,
+            "exception": null
+          }
+        },
+        {
+          "case": 6,
+          "input": "(42,)",
+          "expected": "TypeError",
+          "actual": {
+            "value": false,
+            "exception": null
+          }
+        },
+        {
+          "case": 7,
+          "input": "(None,)",
+          "expected": "TypeError",
+          "actual": {
+            "value": false,
+            "exception": null
+          }
+        },
+        {
+          "case": 8,
+          "input": "(b'\\xff',)",
+          "expected": "UnicodeDecodeError",
+          "actual": {
+            "value": false,
+            "exception": null
+          }
+        }
+      ],
+      "error": null
+    }
+  },
+  {
+    "id": "normalize-method-05",
+    "chosen": {
+      "passed": true,
+      "checks": 8,
+      "failures": [],
+      "error": null
+    },
+    "rejected": {
+      "passed": false,
+      "checks": 8,
+      "failures": [
+        {
+          "case": 1,
+          "input": "(b'GET',)",
+          "expected": "'GET'",
+          "actual": {
+            "value": [],
+            "exception": null
+          }
+        },
+        {
+          "case": 2,
+          "input": "('POST',)",
+          "expected": "'POST'",
+          "actual": {
+            "value": [],
+            "exception": null
+          }
+        },
+        {
+          "case": 3,
+          "input": "(b'DELETE',)",
+          "expected": "'DELETE'",
+          "actual": {
+            "value": [],
+            "exception": null
+          }
+        },
+        {
+          "case": 4,
+          "input": "('get',)",
+          "expected": "'get'",
+          "actual": {
+            "value": [],
+            "exception": null
+          }
+        },
+        {
+          "case": 5,
+          "input": "(b'',)",
+          "expected": "''",
+          "actual": {
+            "value": [],
+            "exception": null
+          }
+        },
+        {
+          "case": 6,
+          "input": "(42,)",
+          "expected": "TypeError",
+          "actual": {
+            "value": [],
+            "exception": null
+          }
+        },
+        {
+          "case": 7,
+          "input": "(None,)",
+          "expected": "TypeError",
+          "actual": {
+            "value": [],
+            "exception": null
+          }
+        },
+        {
+          "case": 8,
+          "input": "(b'\\xff',)",
+          "expected": "UnicodeDecodeError",
+          "actual": {
+            "value": [],
+            "exception": null
+          }
+        }
+      ],
+      "error": null
+    }
+  },
+  {
+    "id": "normalize-method-06",
+    "chosen": {
+      "passed": true,
+      "checks": 8,
+      "failures": [],
+      "error": null
+    },
+    "rejected": {
+      "passed": false,
+      "checks": 8,
+      "failures": [
+        {
+          "case": 1,
+          "input": "(b'GET',)",
+          "expected": "'GET'",
+          "actual": {
+            "value": {},
+            "exception": null
+          }
+        },
+        {
+          "case": 2,
+          "input": "('POST',)",
+          "expected": "'POST'",
+          "actual": {
+            "value": {},
+            "exception": null
+          }
+        },
+        {
+          "case": 3,
+          "input": "(b'DELETE',)",
+          "expected": "'DELETE'",
+          "actual": {
+            "value": {},
+            "exception": null
+          }
+        },
+        {
+          "case": 4,
+          "input": "('get',)",
+          "expected": "'get'",
+          "actual": {
+            "value": {},
+            "exception": null
+          }
+        },
+        {
+          "case": 5,
+          "input": "(b'',)",
+          "expected": "''",
+          "actual": {
+            "value": {},
+            "exception": null
+          }
+        },
+        {
+          "case": 6,
+          "input": "(42,)",
+          "expected": "TypeError",
+          "actual": {
+            "value": {},
+            "exception": null
+          }
+        },
+        {
+          "case": 7,
+          "input": "(None,)",
+          "expected": "TypeError",
+          "actual": {
+            "value": {},
+            "exception": null
+          }
+        },
+        {
+          "case": 8,
+          "input": "(b'\\xff',)",
+          "expected": "UnicodeDecodeError",
+          "actual": {
+            "value": {},
+            "exception": null
+          }
+        }
+      ],
+      "error": null
+    }
+  },
+  {
+    "id": "normalize-method-07",
+    "chosen": {
+      "passed": true,
+      "checks": 8,
+      "failures": [],
+      "error": null
+    },
+    "rejected": {
+      "passed": false,
+      "checks": 8,
+      "failures": [
+        {
+          "case": 1,
+          "input": "(b'GET',)",
+          "expected": "'GET'",
+          "actual": {
+            "value": "",
+            "exception": null
+          }
+        },
+        {
+          "case": 2,
+          "input": "('POST',)",
+          "expected": "'POST'",
+          "actual": {
+            "value": "",
+            "exception": null
+          }
+        },
+        {
+          "case": 3,
+          "input": "(b'DELETE',)",
+          "expected": "'DELETE'",
+          "actual": {
+            "value": "",
+            "exception": null
+          }
+        },
+        {
+          "case": 4,
+          "input": "('get',)",
+          "expected": "'get'",
+          "actual": {
+            "value": "",
+            "exception": null
+          }
+        },
+        {
+          "case": 6,
+          "input": "(42,)",
+          "expected": "TypeError",
+          "actual": {
+            "value": "",
+            "exception": null
+          }
+        },
+        {
+          "case": 7,
+          "input": "(None,)",
+          "expected": "TypeError",
+          "actual": {
+            "value": "",
+            "exception": null
+          }
+        },
+        {
+          "case": 8,
+          "input": "(b'\\xff',)",
+          "expected": "UnicodeDecodeError",
+          "actual": {
+            "value": "",
+            "exception": null
+          }
+        }
+      ],
+      "error": null
+    }
+  },
+  {
+    "id": "normalize-method-08",
+    "chosen": {
+      "passed": true,
+      "checks": 8,
+      "failures": [],
+      "error": null
+    },
+    "rejected": {
+      "passed": false,
+      "checks": 8,
+      "failures": [
+        {
+          "case": 2,
+          "input": "('POST',)",
+          "expected": "'POST'",
+          "actual": {
+            "value": "GET",
+            "exception": null
+          }
+        },
+        {
+          "case": 3,
+          "input": "(b'DELETE',)",
+          "expected": "'DELETE'",
+          "actual": {
+            "value": "GET",
+            "exception": null
+          }
+        },
+        {
+          "case": 4,
+          "input": "('get',)",
+          "expected": "'get'",
+          "actual": {
+            "value": "GET",
+            "exception": null
+          }
+        },
+        {
+          "case": 5,
+          "input": "(b'',)",
+          "expected": "''",
+          "actual": {
+            "value": "GET",
+            "exception": null
+          }
+        },
+        {
+          "case": 6,
+          "input": "(42,)",
+          "expected": "TypeError",
+          "actual": {
+            "value": "GET",
+            "exception": null
+          }
+        },
+        {
+          "case": 7,
+          "input": "(None,)",
+          "expected": "TypeError",
+          "actual": {
+            "value": "GET",
+            "exception": null
+          }
+        },
+        {
+          "case": 8,
+          "input": "(b'\\xff',)",
+          "expected": "UnicodeDecodeError",
+          "actual": {
+            "value": "GET",
+            "exception": null
+          }
+        }
+      ],
+      "error": null
+    }
+  },
+  {
+    "id": "normalize-method-09",
+    "chosen": {
+      "passed": true,
+      "checks": 8,
+      "failures": [],
+      "error": null
+    },
+    "rejected": {
+      "passed": false,
+      "checks": 8,
+      "failures": [
+        {
+          "case": 1,
+          "input": "(b'GET',)",
+          "expected": "'GET'",
+          "actual": {
+            "value": "bad",
+            "exception": null
+          }
+        },
+        {
+          "case": 2,
+          "input": "('POST',)",
+          "expected": "'POST'",
+          "actual": {
+            "value": "bad",
+            "exception": null
+          }
+        },
+        {
+          "case": 3,
+          "input": "(b'DELETE',)",
+          "expected": "'DELETE'",
+          "actual": {
+            "value": "bad",
+            "exception": null
+          }
+        },
+        {
+          "case": 4,
+          "input": "('get',)",
+          "expected": "'get'",
+          "actual": {
+            "value": "bad",
+            "exception": null
+          }
+        },
+        {
+          "case": 5,
+          "input": "(b'',)",
+          "expected": "''",
+          "actual": {
+            "value": "bad",
+            "exception": null
+          }
+        },
+        {
+          "case": 6,
+          "input": "(42,)",
+          "expected": "TypeError",
+          "actual": {
+            "value": "bad",
+            "exception": null
+          }
+        },
+        {
+          "case": 7,
+          "input": "(None,)",
+          "expected": "TypeError",
+          "actual": {
+            "value": "bad",
+            "exception": null
+          }
+        },
+        {
+          "case": 8,
+          "input": "(b'\\xff',)",
+          "expected": "UnicodeDecodeError",
+          "actual": {
+            "value": "bad",
+            "exception": null
+          }
+        }
+      ],
+      "error": null
+    }
+  },
+  {
+    "id": "chunked-00",
+    "chosen": {
+      "passed": true,
+      "checks": 8,
+      "failures": [],
+      "error": null
+    },
+    "rejected": {
+      "passed": false,
+      "checks": 8,
+      "failures": [
+        {
+          "case": 1,
+          "input": "([1, 2, 3], 2)",
+          "expected": "[[1, 2], [3]]",
+          "actual": {
+            "value": null,
+            "exception": null
+          }
+        },
+        {
+          "case": 2,
+          "input": "([], 2)",
+          "expected": "[]",
+          "actual": {
+            "value": null,
+            "exception": null
+          }
+        },
+        {
+          "case": 3,
+          "input": "([1, 2], 5)",
+          "expected": "[[1, 2]]",
+          "actual": {
+            "value": null,
+            "exception": null
+          }
+        },
+        {
+          "case": 4,
+          "input": "([1, 2, 3, 4], 2)",
+          "expected": "[[1, 2], [3, 4]]",
+          "actual": {
+            "value": null,
+            "exception": null
+          }
+        },
+        {
+          "case": 5,
+          "input": "([1], 0)",
+          "expected": "ValueError",
+          "actual": {
+            "value": null,
+            "exception": null
+          }
+        },
+        {
+          "case": 6,
+          "input": "([], -1)",
+          "expected": "ValueError",
+          "actual": {
+            "value": null,
+            "exception": null
+          }
+        },
+        {
+          "case": 7,
+          "input": "([1], True)",
+          "expected": "TypeError",
+          "actual": {
+            "value": null,
+            "exception": null
+          }
+        },
+        {
+          "case": 8,
+          "input": "([1], 1.5)",
+          "expected": "TypeError",
+          "actual": {
+            "value": null,
+            "exception": null
+          }
+        }
+      ],
+      "error": null
+    }
+  },
+  {
+    "id": "chunked-01",
+    "chosen": {
+      "passed": true,
+      "checks": 8,
+      "failures": [],
+      "error": null
+    },
+    "rejected": {
+      "passed": false,
+      "checks": 8,
+      "failures": [
+        {
+          "case": 1,
+          "input": "([1, 2, 3], 2)",
+          "expected": "[[1, 2], [3]]",
+          "actual": {
+            "value": 0,
+            "exception": null
+          }
+        },
+        {
+          "case": 2,
+          "input": "([], 2)",
+          "expected": "[]",
+          "actual": {
+            "value": 0,
+            "exception": null
+          }
+        },
+        {
+          "case": 3,
+          "input": "([1, 2], 5)",
+          "expected": "[[1, 2]]",
+          "actual": {
+            "value": 0,
+            "exception": null
+          }
+        },
+        {
+          "case": 4,
+          "input": "([1, 2, 3, 4], 2)",
+          "expected": "[[1, 2], [3, 4]]",
+          "actual": {
+            "value": 0,
+            "exception": null
+          }
+        },
+        {
+          "case": 5,
+          "input": "([1], 0)",
+          "expected": "ValueError",
+          "actual": {
+            "value": 0,
+            "exception": null
+          }
+        },
+        {
+          "case": 6,
+          "input": "([], -1)",
+          "expected": "ValueError",
+          "actual": {
+            "value": 0,
+            "exception": null
+          }
+        },
+        {
+          "case": 7,
+          "input": "([1], True)",
+          "expected": "TypeError",
+          "actual": {
+            "value": 0,
+            "exception": null
+          }
+        },
+        {
+          "case": 8,
+          "input": "([1], 1.5)",
+          "expected": "TypeError",
+          "actual": {
+            "value": 0,
+            "exception": null
+          }
+        }
+      ],
+      "error": null
+    }
+  },
+  {
+    "id": "chunked-02",
+    "chosen": {
+      "passed": true,
+      "checks": 8,
+      "failures": [],
+      "error": null
+    },
+    "rejected": {
+      "passed": false,
+      "checks": 8,
+      "failures": [
+        {
+          "case": 1,
+          "input": "([1, 2, 3], 2)",
+          "expected": "[[1, 2], [3]]",
+          "actual": {
+            "value": 1,
+            "exception": null
+          }
+        },
+        {
+          "case": 2,
+          "input": "([], 2)",
+          "expected": "[]",
+          "actual": {
+            "value": 1,
+            "exception": null
+          }
+        },
+        {
+          "case": 3,
+          "input": "([1, 2], 5)",
+          "expected": "[[1, 2]]",
+          "actual": {
+            "value": 1,
+            "exception": null
+          }
+        },
+        {
+          "case": 4,
+          "input": "([1, 2, 3, 4], 2)",
+          "expected": "[[1, 2], [3, 4]]",
+          "actual": {
+            "value": 1,
+            "exception": null
+          }
+        },
+        {
+          "case": 5,
+          "input": "([1], 0)",
+          "expected": "ValueError",
+          "actual": {
+            "value": 1,
+            "exception": null
+          }
+        },
+        {
+          "case": 6,
+          "input": "([], -1)",
+          "expected": "ValueError",
+          "actual": {
+            "value": 1,
+            "exception": null
+          }
+        },
+        {
+          "case": 7,
+          "input": "([1], True)",
+          "expected": "TypeError",
+          "actual": {
+            "value": 1,
+            "exception": null
+          }
+        },
+        {
+          "case": 8,
+          "input": "([1], 1.5)",
+          "expected": "TypeError",
+          "actual": {
+            "value": 1,
+            "exception": null
+          }
+        }
+      ],
+      "error": null
+    }
+  },
+  {
+    "id": "chunked-03",
+    "chosen": {
+      "passed": true,
+      "checks": 8,
+      "failures": [],
+      "error": null
+    },
+    "rejected": {
+      "passed": false,
+      "checks": 8,
+      "failures": [
+        {
+          "case": 1,
+          "input": "([1, 2, 3], 2)",
+          "expected": "[[1, 2], [3]]",
+          "actual": {
+            "value": true,
+            "exception": null
+          }
+        },
+        {
+          "case": 2,
+          "input": "([], 2)",
+          "expected": "[]",
+          "actual": {
+            "value": true,
+            "exception": null
+          }
+        },
+        {
+          "case": 3,
+          "input": "([1, 2], 5)",
+          "expected": "[[1, 2]]",
+          "actual": {
+            "value": true,
+            "exception": null
+          }
+        },
+        {
+          "case": 4,
+          "input": "([1, 2, 3, 4], 2)",
+          "expected": "[[1, 2], [3, 4]]",
+          "actual": {
+            "value": true,
+            "exception": null
+          }
+        },
+        {
+          "case": 5,
+          "input": "([1], 0)",
+          "expected": "ValueError",
+          "actual": {
+            "value": true,
+            "exception": null
+          }
+        },
+        {
+          "case": 6,
+          "input": "([], -1)",
+          "expected": "ValueError",
+          "actual": {
+            "value": true,
+            "exception": null
+          }
+        },
+        {
+          "case": 7,
+          "input": "([1], True)",
+          "expected": "TypeError",
+          "actual": {
+            "value": true,
+            "exception": null
+          }
+        },
+        {
+          "case": 8,
+          "input": "([1], 1.5)",
+          "expected": "TypeError",
+          "actual": {
+            "value": true,
+            "exception": null
+          }
+        }
+      ],
+      "error": null
+    }
+  },
+  {
+    "id": "chunked-04",
+    "chosen": {
+      "passed": true,
+      "checks": 8,
+      "failures": [],
+      "error": null
+    },
+    "rejected": {
+      "passed": false,
+      "checks": 8,
+      "failures": [
+        {
+          "case": 1,
+          "input": "([1, 2, 3], 2)",
+          "expected": "[[1, 2], [3]]",
+          "actual": {
+            "value": false,
+            "exception": null
+          }
+        },
+        {
+          "case": 2,
+          "input": "([], 2)",
+          "expected": "[]",
+          "actual": {
+            "value": false,
+            "exception": null
+          }
+        },
+        {
+          "case": 3,
+          "input": "([1, 2], 5)",
+          "expected": "[[1, 2]]",
+          "actual": {
+            "value": false,
+            "exception": null
+          }
+        },
+        {
+          "case": 4,
+          "input": "([1, 2, 3, 4], 2)",
+          "expected": "[[1, 2], [3, 4]]",
+          "actual": {
+            "value": false,
+            "exception": null
+          }
+        },
+        {
+          "case": 5,
+          "input": "([1], 0)",
+          "expected": "ValueError",
+          "actual": {
+            "value": false,
+            "exception": null
+          }
+        },
+        {
+          "case": 6,
+          "input": "([], -1)",
+          "expected": "ValueError",
+          "actual": {
+            "value": false,
+            "exception": null
+          }
+        },
+        {
+          "case": 7,
+          "input": "([1], True)",
+          "expected": "TypeError",
+          "actual": {
+            "value": false,
+            "exception": null
+          }
+        },
+        {
+          "case": 8,
+          "input": "([1], 1.5)",
+          "expected": "TypeError",
+          "actual": {
+            "value": false,
+            "exception": null
+          }
+        }
+      ],
+      "error": null
+    }
+  },
+  {
+    "id": "chunked-05",
+    "chosen": {
+      "passed": true,
+      "checks": 8,
+      "failures": [],
+      "error": null
+    },
+    "rejected": {
+      "passed": false,
+      "checks": 8,
+      "failures": [
+        {
+          "case": 1,
+          "input": "([1, 2, 3], 2)",
+          "expected": "[[1, 2], [3]]",
+          "actual": {
+            "value": [],
+            "exception": null
+          }
+        },
+        {
+          "case": 3,
+          "input": "([1, 2], 5)",
+          "expected": "[[1, 2]]",
+          "actual": {
+            "value": [],
+            "exception": null
+          }
+        },
+        {
+          "case": 4,
+          "input": "([1, 2, 3, 4], 2)",
+          "expected": "[[1, 2], [3, 4]]",
+          "actual": {
+            "value": [],
+            "exception": null
+          }
+        },
+        {
+          "case": 5,
+          "input": "([1], 0)",
+          "expected": "ValueError",
+          "actual": {
+            "value": [],
+            "exception": null
+          }
+        },
+        {
+          "case": 6,
+          "input": "([], -1)",
+          "expected": "ValueError",
+          "actual": {
+            "value": [],
+            "exception": null
+          }
+        },
+        {
+          "case": 7,
+          "input": "([1], True)",
+          "expected": "TypeError",
+          "actual": {
+            "value": [],
+            "exception": null
+          }
+        },
+        {
+          "case": 8,
+          "input": "([1], 1.5)",
+          "expected": "TypeError",
+          "actual": {
+            "value": [],
+            "exception": null
+          }
+        }
+      ],
+      "error": null
+    }
+  },
+  {
+    "id": "chunked-06",
+    "chosen": {
+      "passed": true,
+      "checks": 8,
+      "failures": [],
+      "error": null
+    },
+    "rejected": {
+      "passed": false,
+      "checks": 8,
+      "failures": [
+        {
+          "case": 1,
+          "input": "([1, 2, 3], 2)",
+          "expected": "[[1, 2], [3]]",
+          "actual": {
+            "value": {},
+            "exception": null
+          }
+        },
+        {
+          "case": 2,
+          "input": "([], 2)",
+          "expected": "[]",
+          "actual": {
+            "value": {},
+            "exception": null
+          }
+        },
+        {
+          "case": 3,
+          "input": "([1, 2], 5)",
+          "expected": "[[1, 2]]",
+          "actual": {
+            "value": {},
+            "exception": null
+          }
+        },
+        {
+          "case": 4,
+          "input": "([1, 2, 3, 4], 2)",
+          "expected": "[[1, 2], [3, 4]]",
+          "actual": {
+            "value": {},
+            "exception": null
+          }
+        },
+        {
+          "case": 5,
+          "input": "([1], 0)",
+          "expected": "ValueError",
+          "actual": {
+            "value": {},
+            "exception": null
+          }
+        },
+        {
+          "case": 6,
+          "input": "([], -1)",
+          "expected": "ValueError",
+          "actual": {
+            "value": {},
+            "exception": null
+          }
+        },
+        {
+          "case": 7,
+          "input": "([1], True)",
+          "expected": "TypeError",
+          "actual": {
+            "value": {},
+            "exception": null
+          }
+        },
+        {
+          "case": 8,
+          "input": "([1], 1.5)",
+          "expected": "TypeError",
+          "actual": {
+            "value": {},
+            "exception": null
+          }
+        }
+      ],
+      "error": null
+    }
+  },
+  {
+    "id": "chunked-07",
+    "chosen": {
+      "passed": true,
+      "checks": 8,
+      "failures": [],
+      "error": null
+    },
+    "rejected": {
+      "passed": false,
+      "checks": 8,
+      "failures": [
+        {
+          "case": 1,
+          "input": "([1, 2, 3], 2)",
+          "expected": "[[1, 2], [3]]",
+          "actual": {
+            "value": "",
+            "exception": null
+          }
+        },
+        {
+          "case": 2,
+          "input": "([], 2)",
+          "expected": "[]",
+          "actual": {
+            "value": "",
+            "exception": null
+          }
+        },
+        {
+          "case": 3,
+          "input": "([1, 2], 5)",
+          "expected": "[[1, 2]]",
+          "actual": {
+            "value": "",
+            "exception": null
+          }
+        },
+        {
+          "case": 4,
+          "input": "([1, 2, 3, 4], 2)",
+          "expected": "[[1, 2], [3, 4]]",
+          "actual": {
+            "value": "",
+            "exception": null
+          }
+        },
+        {
+          "case": 5,
+          "input": "([1], 0)",
+          "expected": "ValueError",
+          "actual": {
+            "value": "",
+            "exception": null
+          }
+        },
+        {
+          "case": 6,
+          "input": "([], -1)",
+          "expected": "ValueError",
+          "actual": {
+            "value": "",
+            "exception": null
+          }
+        },
+        {
+          "case": 7,
+          "input": "([1], True)",
+          "expected": "TypeError",
+          "actual": {
+            "value": "",
+            "exception": null
+          }
+        },
+        {
+          "case": 8,
+          "input": "([1], 1.5)",
+          "expected": "TypeError",
+          "actual": {
+            "value": "",
+            "exception": null
+          }
+        }
+      ],
+      "error": null
+    }
+  },
+  {
+    "id": "chunked-08",
+    "chosen": {
+      "passed": true,
+      "checks": 8,
+      "failures": [],
+      "error": null
+    },
+    "rejected": {
+      "passed": false,
+      "checks": 8,
+      "failures": [
+        {
+          "case": 1,
+          "input": "([1, 2, 3], 2)",
+          "expected": "[[1, 2], [3]]",
+          "actual": {
+            "value": "GET",
+            "exception": null
+          }
+        },
+        {
+          "case": 2,
+          "input": "([], 2)",
+          "expected": "[]",
+          "actual": {
+            "value": "GET",
+            "exception": null
+          }
+        },
+        {
+          "case": 3,
+          "input": "([1, 2], 5)",
+          "expected": "[[1, 2]]",
+          "actual": {
+            "value": "GET",
+            "exception": null
+          }
+        },
+        {
+          "case": 4,
+          "input": "([1, 2, 3, 4], 2)",
+          "expected": "[[1, 2], [3, 4]]",
+          "actual": {
+            "value": "GET",
+            "exception": null
+          }
+        },
+        {
+          "case": 5,
+          "input": "([1], 0)",
+          "expected": "ValueError",
+          "actual": {
+            "value": "GET",
+            "exception": null
+          }
+        },
+        {
+          "case": 6,
+          "input": "([], -1)",
+          "expected": "ValueError",
+          "actual": {
+            "value": "GET",
+            "exception": null
+          }
+        },
+        {
+          "case": 7,
+          "input": "([1], True)",
+          "expected": "TypeError",
+          "actual": {
+            "value": "GET",
+            "exception": null
+          }
+        },
+        {
+          "case": 8,
+          "input": "([1], 1.5)",
+          "expected": "TypeError",
+          "actual": {
+            "value": "GET",
+            "exception": null
+          }
+        }
+      ],
+      "error": null
+    }
+  },
+  {
+    "id": "chunked-09",
+    "chosen": {
+      "passed": true,
+      "checks": 8,
+      "failures": [],
+      "error": null
+    },
+    "rejected": {
+      "passed": false,
+      "checks": 8,
+      "failures": [
+        {
+          "case": 1,
+          "input": "([1, 2, 3], 2)",
+          "expected": "[[1, 2], [3]]",
+          "actual": {
+            "value": "bad",
+            "exception": null
+          }
+        },
+        {
+          "case": 2,
+          "input": "([], 2)",
+          "expected": "[]",
+          "actual": {
+            "value": "bad",
+            "exception": null
+          }
+        },
+        {
+          "case": 3,
+          "input": "([1, 2], 5)",
+          "expected": "[[1, 2]]",
+          "actual": {
+            "value": "bad",
+            "exception": null
+          }
+        },
+        {
+          "case": 4,
+          "input": "([1, 2, 3, 4], 2)",
+          "expected": "[[1, 2], [3, 4]]",
+          "actual": {
+            "value": "bad",
+            "exception": null
+          }
+        },
+        {
+          "case": 5,
+          "input": "([1], 0)",
+          "expected": "ValueError",
+          "actual": {
+            "value": "bad",
+            "exception": null
+          }
+        },
+        {
+          "case": 6,
+          "input": "([], -1)",
+          "expected": "ValueError",
+          "actual": {
+            "value": "bad",
+            "exception": null
+          }
+        },
+        {
+          "case": 7,
+          "input": "([1], True)",
+          "expected": "TypeError",
+          "actual": {
+            "value": "bad",
+            "exception": null
+          }
+        },
+        {
+          "case": 8,
+          "input": "([1], 1.5)",
+          "expected": "TypeError",
+          "actual": {
+            "value": "bad",
+            "exception": null
+          }
+        }
+      ],
+      "error": null
+    }
+  },
+  {
+    "id": "merge-intervals-00",
+    "chosen": {
+      "passed": true,
+      "checks": 7,
+      "failures": [],
+      "error": null
+    },
+    "rejected": {
+      "passed": false,
+      "checks": 7,
+      "failures": [
+        {
+          "case": 1,
+          "input": "([[1, 4], [2, 3]],)",
+          "expected": "[[1, 4]]",
+          "actual": {
+            "value": null,
+            "exception": null
+          }
+        },
+        {
+          "case": 2,
+          "input": "([],)",
+          "expected": "[]",
+          "actual": {
+            "value": null,
+            "exception": null
+          }
+        },
+        {
+          "case": 3,
+          "input": "([[5, 7], [1, 3], [3, 5]],)",
+          "expected": "[[1, 7]]",
+          "actual": {
+            "value": null,
+            "exception": null
+          }
+        },
+        {
+          "case": 4,
+          "input": "([[0, 0], [2, 2]],)",
+          "expected": "[[0, 0], [2, 2]]",
+          "actual": {
+            "value": null,
+            "exception": null
+          }
+        },
+        {
+          "case": 5,
+          "input": "([[-3, -1], [-2, 2]],)",
+          "expected": "[[-3, 2]]",
+          "actual": {
+            "value": null,
+            "exception": null
+          }
+        },
+        {
+          "case": 6,
+          "input": "([[3, 2]],)",
+          "expected": "ValueError",
+          "actual": {
+            "value": null,
+            "exception": null
+          }
+        },
+        {
+          "case": 7,
+          "input": "([[1, 9], [2, 3], [4, 5]],)",
+          "expected": "[[1, 9]]",
+          "actual": {
+            "value": null,
+            "exception": null
+          }
+        }
+      ],
+      "error": null
+    }
+  },
+  {
+    "id": "merge-intervals-01",
+    "chosen": {
+      "passed": true,
+      "checks": 7,
+      "failures": [],
+      "error": null
+    },
+    "rejected": {
+      "passed": false,
+      "checks": 7,
+      "failures": [
+        {
+          "case": 1,
+          "input": "([[1, 4], [2, 3]],)",
+          "expected": "[[1, 4]]",
+          "actual": {
+            "value": 0,
+            "exception": null
+          }
+        },
+        {
+          "case": 2,
+          "input": "([],)",
+          "expected": "[]",
+          "actual": {
+            "value": 0,
+            "exception": null
+          }
+        },
+        {
+          "case": 3,
+          "input": "([[5, 7], [1, 3], [3, 5]],)",
+          "expected": "[[1, 7]]",
+          "actual": {
+            "value": 0,
+            "exception": null
+          }
+        },
+        {
+          "case": 4,
+          "input": "([[0, 0], [2, 2]],)",
+          "expected": "[[0, 0], [2, 2]]",
+          "actual": {
+            "value": 0,
+            "exception": null
+          }
+        },
+        {
+          "case": 5,
+          "input": "([[-3, -1], [-2, 2]],)",
+          "expected": "[[-3, 2]]",
+          "actual": {
+            "value": 0,
+            "exception": null
+          }
+        },
+        {
+          "case": 6,
+          "input": "([[3, 2]],)",
+          "expected": "ValueError",
+          "actual": {
+            "value": 0,
+            "exception": null
+          }
+        },
+        {
+          "case": 7,
+          "input": "([[1, 9], [2, 3], [4, 5]],)",
+          "expected": "[[1, 9]]",
+          "actual": {
+            "value": 0,
+            "exception": null
+          }
+        }
+      ],
+      "error": null
+    }
+  },
+  {
+    "id": "merge-intervals-02",
+    "chosen": {
+      "passed": true,
+      "checks": 7,
+      "failures": [],
+      "error": null
+    },
+    "rejected": {
+      "passed": false,
+      "checks": 7,
+      "failures": [
+        {
+          "case": 1,
+          "input": "([[1, 4], [2, 3]],)",
+          "expected": "[[1, 4]]",
+          "actual": {
+            "value": 1,
+            "exception": null
+          }
+        },
+        {
+          "case": 2,
+          "input": "([],)",
+          "expected": "[]",
+          "actual": {
+            "value": 1,
+            "exception": null
+          }
+        },
+        {
+          "case": 3,
+          "input": "([[5, 7], [1, 3], [3, 5]],)",
+          "expected": "[[1, 7]]",
+          "actual": {
+            "value": 1,
+            "exception": null
+          }
+        },
+        {
+          "case": 4,
+          "input": "([[0, 0], [2, 2]],)",
+          "expected": "[[0, 0], [2, 2]]",
+          "actual": {
+            "value": 1,
+            "exception": null
+          }
+        },
+        {
+          "case": 5,
+          "input": "([[-3, -1], [-2, 2]],)",
+          "expected": "[[-3, 2]]",
+          "actual": {
+            "value": 1,
+            "exception": null
+          }
+        },
+        {
+          "case": 6,
+          "input": "([[3, 2]],)",
+          "expected": "ValueError",
+          "actual": {
+            "value": 1,
+            "exception": null
+          }
+        },
+        {
+          "case": 7,
+          "input": "([[1, 9], [2, 3], [4, 5]],)",
+          "expected": "[[1, 9]]",
+          "actual": {
+            "value": 1,
+            "exception": null
+          }
+        }
+      ],
+      "error": null
+    }
+  },
+  {
+    "id": "merge-intervals-03",
+    "chosen": {
+      "passed": true,
+      "checks": 7,
+      "failures": [],
+      "error": null
+    },
+    "rejected": {
+      "passed": false,
+      "checks": 7,
+      "failures": [
+        {
+          "case": 1,
+          "input": "([[1, 4], [2, 3]],)",
+          "expected": "[[1, 4]]",
+          "actual": {
+            "value": true,
+            "exception": null
+          }
+        },
+        {
+          "case": 2,
+          "input": "([],)",
+          "expected": "[]",
+          "actual": {
+            "value": true,
+            "exception": null
+          }
+        },
+        {
+          "case": 3,
+          "input": "([[5, 7], [1, 3], [3, 5]],)",
+          "expected": "[[1, 7]]",
+          "actual": {
+            "value": true,
+            "exception": null
+          }
+        },
+        {
+          "case": 4,
+          "input": "([[0, 0], [2, 2]],)",
+          "expected": "[[0, 0], [2, 2]]",
+          "actual": {
+            "value": true,
+            "exception": null
+          }
+        },
+        {
+          "case": 5,
+          "input": "([[-3, -1], [-2, 2]],)",
+          "expected": "[[-3, 2]]",
+          "actual": {
+            "value": true,
+            "exception": null
+          }
+        },
+        {
+          "case": 6,
+          "input": "([[3, 2]],)",
+          "expected": "ValueError",
+          "actual": {
+            "value": true,
+            "exception": null
+          }
+        },
+        {
+          "case": 7,
+          "input": "([[1, 9], [2, 3], [4, 5]],)",
+          "expected": "[[1, 9]]",
+          "actual": {
+            "value": true,
+            "exception": null
+          }
+        }
+      ],
+      "error": null
+    }
+  },
+  {
+    "id": "merge-intervals-04",
+    "chosen": {
+      "passed": true,
+      "checks": 7,
+      "failures": [],
+      "error": null
+    },
+    "rejected": {
+      "passed": false,
+      "checks": 7,
+      "failures": [
+        {
+          "case": 1,
+          "input": "([[1, 4], [2, 3]],)",
+          "expected": "[[1, 4]]",
+          "actual": {
+            "value": false,
+            "exception": null
+          }
+        },
+        {
+          "case": 2,
+          "input": "([],)",
+          "expected": "[]",
+          "actual": {
+            "value": false,
+            "exception": null
+          }
+        },
+        {
+          "case": 3,
+          "input": "([[5, 7], [1, 3], [3, 5]],)",
+          "expected": "[[1, 7]]",
+          "actual": {
+            "value": false,
+            "exception": null
+          }
+        },
+        {
+          "case": 4,
+          "input": "([[0, 0], [2, 2]],)",
+          "expected": "[[0, 0], [2, 2]]",
+          "actual": {
+            "value": false,
+            "exception": null
+          }
+        },
+        {
+          "case": 5,
+          "input": "([[-3, -1], [-2, 2]],)",
+          "expected": "[[-3, 2]]",
+          "actual": {
+            "value": false,
+            "exception": null
+          }
+        },
+        {
+          "case": 6,
+          "input": "([[3, 2]],)",
+          "expected": "ValueError",
+          "actual": {
+            "value": false,
+            "exception": null
+          }
+        },
+        {
+          "case": 7,
+          "input": "([[1, 9], [2, 3], [4, 5]],)",
+          "expected": "[[1, 9]]",
+          "actual": {
+            "value": false,
+            "exception": null
+          }
+        }
+      ],
+      "error": null
+    }
+  },
+  {
+    "id": "merge-intervals-05",
+    "chosen": {
+      "passed": true,
+      "checks": 7,
+      "failures": [],
+      "error": null
+    },
+    "rejected": {
+      "passed": false,
+      "checks": 7,
+      "failures": [
+        {
+          "case": 1,
+          "input": "([[1, 4], [2, 3]],)",
+          "expected": "[[1, 4]]",
+          "actual": {
+            "value": [],
+            "exception": null
+          }
+        },
+        {
+          "case": 3,
+          "input": "([[5, 7], [1, 3], [3, 5]],)",
+          "expected": "[[1, 7]]",
+          "actual": {
+            "value": [],
+            "exception": null
+          }
+        },
+        {
+          "case": 4,
+          "input": "([[0, 0], [2, 2]],)",
+          "expected": "[[0, 0], [2, 2]]",
+          "actual": {
+            "value": [],
+            "exception": null
+          }
+        },
+        {
+          "case": 5,
+          "input": "([[-3, -1], [-2, 2]],)",
+          "expected": "[[-3, 2]]",
+          "actual": {
+            "value": [],
+            "exception": null
+          }
+        },
+        {
+          "case": 6,
+          "input": "([[3, 2]],)",
+          "expected": "ValueError",
+          "actual": {
+            "value": [],
+            "exception": null
+          }
+        },
+        {
+          "case": 7,
+          "input": "([[1, 9], [2, 3], [4, 5]],)",
+          "expected": "[[1, 9]]",
+          "actual": {
+            "value": [],
+            "exception": null
+          }
+        }
+      ],
+      "error": null
+    }
+  },
+  {
+    "id": "merge-intervals-06",
+    "chosen": {
+      "passed": true,
+      "checks": 7,
+      "failures": [],
+      "error": null
+    },
+    "rejected": {
+      "passed": false,
+      "checks": 7,
+      "failures": [
+        {
+          "case": 1,
+          "input": "([[1, 4], [2, 3]],)",
+          "expected": "[[1, 4]]",
+          "actual": {
+            "value": {},
+            "exception": null
+          }
+        },
+        {
+          "case": 2,
+          "input": "([],)",
+          "expected": "[]",
+          "actual": {
+            "value": {},
+            "exception": null
+          }
+        },
+        {
+          "case": 3,
+          "input": "([[5, 7], [1, 3], [3, 5]],)",
+          "expected": "[[1, 7]]",
+          "actual": {
+            "value": {},
+            "exception": null
+          }
+        },
+        {
+          "case": 4,
+          "input": "([[0, 0], [2, 2]],)",
+          "expected": "[[0, 0], [2, 2]]",
+          "actual": {
+            "value": {},
+            "exception": null
+          }
+        },
+        {
+          "case": 5,
+          "input": "([[-3, -1], [-2, 2]],)",
+          "expected": "[[-3, 2]]",
+          "actual": {
+            "value": {},
+            "exception": null
+          }
+        },
+        {
+          "case": 6,
+          "input": "([[3, 2]],)",
+          "expected": "ValueError",
+          "actual": {
+            "value": {},
+            "exception": null
+          }
+        },
+        {
+          "case": 7,
+          "input": "([[1, 9], [2, 3], [4, 5]],)",
+          "expected": "[[1, 9]]",
+          "actual": {
+            "value": {},
+            "exception": null
+          }
+        }
+      ],
+      "error": null
+    }
+  },
+  {
+    "id": "merge-intervals-07",
+    "chosen": {
+      "passed": true,
+      "checks": 7,
+      "failures": [],
+      "error": null
+    },
+    "rejected": {
+      "passed": false,
+      "checks": 7,
+      "failures": [
+        {
+          "case": 1,
+          "input": "([[1, 4], [2, 3]],)",
+          "expected": "[[1, 4]]",
+          "actual": {
+            "value": "",
+            "exception": null
+          }
+        },
+        {
+          "case": 2,
+          "input": "([],)",
+          "expected": "[]",
+          "actual": {
+            "value": "",
+            "exception": null
+          }
+        },
+        {
+          "case": 3,
+          "input": "([[5, 7], [1, 3], [3, 5]],)",
+          "expected": "[[1, 7]]",
+          "actual": {
+            "value": "",
+            "exception": null
+          }
+        },
+        {
+          "case": 4,
+          "input": "([[0, 0], [2, 2]],)",
+          "expected": "[[0, 0], [2, 2]]",
+          "actual": {
+            "value": "",
+            "exception": null
+          }
+        },
+        {
+          "case": 5,
+          "input": "([[-3, -1], [-2, 2]],)",
+          "expected": "[[-3, 2]]",
+          "actual": {
+            "value": "",
+            "exception": null
+          }
+        },
+        {
+          "case": 6,
+          "input": "([[3, 2]],)",
+          "expected": "ValueError",
+          "actual": {
+            "value": "",
+            "exception": null
+          }
+        },
+        {
+          "case": 7,
+          "input": "([[1, 9], [2, 3], [4, 5]],)",
+          "expected": "[[1, 9]]",
+          "actual": {
+            "value": "",
+            "exception": null
+          }
+        }
+      ],
+      "error": null
+    }
+  },
+  {
+    "id": "merge-intervals-08",
+    "chosen": {
+      "passed": true,
+      "checks": 7,
+      "failures": [],
+      "error": null
+    },
+    "rejected": {
+      "passed": false,
+      "checks": 7,
+      "failures": [
+        {
+          "case": 1,
+          "input": "([[1, 4], [2, 3]],)",
+          "expected": "[[1, 4]]",
+          "actual": {
+            "value": "GET",
+            "exception": null
+          }
+        },
+        {
+          "case": 2,
+          "input": "([],)",
+          "expected": "[]",
+          "actual": {
+            "value": "GET",
+            "exception": null
+          }
+        },
+        {
+          "case": 3,
+          "input": "([[5, 7], [1, 3], [3, 5]],)",
+          "expected": "[[1, 7]]",
+          "actual": {
+            "value": "GET",
+            "exception": null
+          }
+        },
+        {
+          "case": 4,
+          "input": "([[0, 0], [2, 2]],)",
+          "expected": "[[0, 0], [2, 2]]",
+          "actual": {
+            "value": "GET",
+            "exception": null
+          }
+        },
+        {
+          "case": 5,
+          "input": "([[-3, -1], [-2, 2]],)",
+          "expected": "[[-3, 2]]",
+          "actual": {
+            "value": "GET",
+            "exception": null
+          }
+        },
+        {
+          "case": 6,
+          "input": "([[3, 2]],)",
+          "expected": "ValueError",
+          "actual": {
+            "value": "GET",
+            "exception": null
+          }
+        },
+        {
+          "case": 7,
+          "input": "([[1, 9], [2, 3], [4, 5]],)",
+          "expected": "[[1, 9]]",
+          "actual": {
+            "value": "GET",
+            "exception": null
+          }
+        }
+      ],
+      "error": null
+    }
+  },
+  {
+    "id": "merge-intervals-09",
+    "chosen": {
+      "passed": true,
+      "checks": 7,
+      "failures": [],
+      "error": null
+    },
+    "rejected": {
+      "passed": false,
+      "checks": 7,
+      "failures": [
+        {
+          "case": 1,
+          "input": "([[1, 4], [2, 3]],)",
+          "expected": "[[1, 4]]",
+          "actual": {
+            "value": "bad",
+            "exception": null
+          }
+        },
+        {
+          "case": 2,
+          "input": "([],)",
+          "expected": "[]",
+          "actual": {
+            "value": "bad",
+            "exception": null
+          }
+        },
+        {
+          "case": 3,
+          "input": "([[5, 7], [1, 3], [3, 5]],)",
+          "expected": "[[1, 7]]",
+          "actual": {
+            "value": "bad",
+            "exception": null
+          }
+        },
+        {
+          "case": 4,
+          "input": "([[0, 0], [2, 2]],)",
+          "expected": "[[0, 0], [2, 2]]",
+          "actual": {
+            "value": "bad",
+            "exception": null
+          }
+        },
+        {
+          "case": 5,
+          "input": "([[-3, -1], [-2, 2]],)",
+          "expected": "[[-3, 2]]",
+          "actual": {
+            "value": "bad",
+            "exception": null
+          }
+        },
+        {
+          "case": 6,
+          "input": "([[3, 2]],)",
+          "expected": "ValueError",
+          "actual": {
+            "value": "bad",
+            "exception": null
+          }
+        },
+        {
+          "case": 7,
+          "input": "([[1, 9], [2, 3], [4, 5]],)",
+          "expected": "[[1, 9]]",
+          "actual": {
+            "value": "bad",
+            "exception": null
+          }
+        }
+      ],
+      "error": null
+    }
+  },
+  {
+    "id": "parse-bool-00",
+    "chosen": {
+      "passed": true,
+      "checks": 10,
+      "failures": [],
+      "error": null
+    },
+    "rejected": {
+      "passed": false,
+      "checks": 10,
+      "failures": [
+        {
+          "case": 1,
+          "input": "('false',)",
+          "expected": "False",
+          "actual": {
+            "value": null,
+            "exception": null
+          }
+        },
+        {
+          "case": 2,
+          "input": "(' YES ',)",
+          "expected": "True",
+          "actual": {
+            "value": null,
+            "exception": null
+          }
+        },
+        {
+          "case": 3,
+          "input": "('0',)",
+          "expected": "False",
+          "actual": {
+            "value": null,
+            "exception": null
+          }
+        },
+        {
+          "case": 4,
+          "input": "(' No\\n',)",
+          "expected": "False",
+          "actual": {
+            "value": null,
+            "exception": null
+          }
+        },
+        {
+          "case": 5,
+          "input": "('TRUE',)",
+          "expected": "True",
+          "actual": {
+            "value": null,
+            "exception": null
+          }
+        },
+        {
+          "case": 6,
+          "input": "('1',)",
+          "expected": "True",
+          "actual": {
+            "value": null,
+            "exception": null
+          }
+        },
+        {
+          "case": 7,
+          "input": "('',)",
+          "expected": "ValueError",
+          "actual": {
+            "value": null,
+            "exception": null
+          }
+        },
+        {
+          "case": 8,
+          "input": "('maybe',)",
+          "expected": "ValueError",
+          "actual": {
+            "value": null,
+            "exception": null
+          }
+        },
+        {
+          "case": 9,
+          "input": "(0,)",
+          "expected": "TypeError",
+          "actual": {
+            "value": null,
+            "exception": null
+          }
+        },
+        {
+          "case": 10,
+          "input": "(True,)",
+          "expected": "TypeError",
+          "actual": {
+            "value": null,
+            "exception": null
+          }
+        }
+      ],
+      "error": null
+    }
+  },
+  {
+    "id": "parse-bool-01",
+    "chosen": {
+      "passed": true,
+      "checks": 10,
+      "failures": [],
+      "error": null
+    },
+    "rejected": {
+      "passed": false,
+      "checks": 10,
+      "failures": [
+        {
+          "case": 1,
+          "input": "('false',)",
+          "expected": "False",
+          "actual": {
+            "value": 0,
+            "exception": null
+          }
+        },
+        {
+          "case": 2,
+          "input": "(' YES ',)",
+          "expected": "True",
+          "actual": {
+            "value": 0,
+            "exception": null
+          }
+        },
+        {
+          "case": 3,
+          "input": "('0',)",
+          "expected": "False",
+          "actual": {
+            "value": 0,
+            "exception": null
+          }
+        },
+        {
+          "case": 4,
+          "input": "(' No\\n',)",
+          "expected": "False",
+          "actual": {
+            "value": 0,
+            "exception": null
+          }
+        },
+        {
+          "case": 5,
+          "input": "('TRUE',)",
+          "expected": "True",
+          "actual": {
+            "value": 0,
+            "exception": null
+          }
+        },
+        {
+          "case": 6,
+          "input": "('1',)",
+          "expected": "True",
+          "actual": {
+            "value": 0,
+            "exception": null
+          }
+        },
+        {
+          "case": 7,
+          "input": "('',)",
+          "expected": "ValueError",
+          "actual": {
+            "value": 0,
+            "exception": null
+          }
+        },
+        {
+          "case": 8,
+          "input": "('maybe',)",
+          "expected": "ValueError",
+          "actual": {
+            "value": 0,
+            "exception": null
+          }
+        },
+        {
+          "case": 9,
+          "input": "(0,)",
+          "expected": "TypeError",
+          "actual": {
+            "value": 0,
+            "exception": null
+          }
+        },
+        {
+          "case": 10,
+          "input": "(True,)",
+          "expected": "TypeError",
+          "actual": {
+            "value": 0,
+            "exception": null
+          }
+        }
+      ],
+      "error": null
+    }
+  },
+  {
+    "id": "parse-bool-02",
+    "chosen": {
+      "passed": true,
+      "checks": 10,
+      "failures": [],
+      "error": null
+    },
+    "rejected": {
+      "passed": false,
+      "checks": 10,
+      "failures": [
+        {
+          "case": 1,
+          "input": "('false',)",
+          "expected": "False",
+          "actual": {
+            "value": 1,
+            "exception": null
+          }
+        },
+        {
+          "case": 2,
+          "input": "(' YES ',)",
+          "expected": "True",
+          "actual": {
+            "value": 1,
+            "exception": null
+          }
+        },
+        {
+          "case": 3,
+          "input": "('0',)",
+          "expected": "False",
+          "actual": {
+            "value": 1,
+            "exception": null
+          }
+        },
+        {
+          "case": 4,
+          "input": "(' No\\n',)",
+          "expected": "False",
+          "actual": {
+            "value": 1,
+            "exception": null
+          }
+        },
+        {
+          "case": 5,
+          "input": "('TRUE',)",
+          "expected": "True",
+          "actual": {
+            "value": 1,
+            "exception": null
+          }
+        },
+        {
+          "case": 6,
+          "input": "('1',)",
+          "expected": "True",
+          "actual": {
+            "value": 1,
+            "exception": null
+          }
+        },
+        {
+          "case": 7,
+          "input": "('',)",
+          "expected": "ValueError",
+          "actual": {
+            "value": 1,
+            "exception": null
+          }
+        },
+        {
+          "case": 8,
+          "input": "('maybe',)",
+          "expected": "ValueError",
+          "actual": {
+            "value": 1,
+            "exception": null
+          }
+        },
+        {
+          "case": 9,
+          "input": "(0,)",
+          "expected": "TypeError",
+          "actual": {
+            "value": 1,
+            "exception": null
+          }
+        },
+        {
+          "case": 10,
+          "input": "(True,)",
+          "expected": "TypeError",
+          "actual": {
+            "value": 1,
+            "exception": null
+          }
+        }
+      ],
+      "error": null
+    }
+  },
+  {
+    "id": "parse-bool-03",
+    "chosen": {
+      "passed": true,
+      "checks": 10,
+      "failures": [],
+      "error": null
+    },
+    "rejected": {
+      "passed": false,
+      "checks": 10,
+      "failures": [
+        {
+          "case": 1,
+          "input": "('false',)",
+          "expected": "False",
+          "actual": {
+            "value": true,
+            "exception": null
+          }
+        },
+        {
+          "case": 3,
+          "input": "('0',)",
+          "expected": "False",
+          "actual": {
+            "value": true,
+            "exception": null
+          }
+        },
+        {
+          "case": 4,
+          "input": "(' No\\n',)",
+          "expected": "False",
+          "actual": {
+            "value": true,
+            "exception": null
+          }
+        },
+        {
+          "case": 7,
+          "input": "('',)",
+          "expected": "ValueError",
+          "actual": {
+            "value": true,
+            "exception": null
+          }
+        },
+        {
+          "case": 8,
+          "input": "('maybe',)",
+          "expected": "ValueError",
+          "actual": {
+            "value": true,
+            "exception": null
+          }
+        },
+        {
+          "case": 9,
+          "input": "(0,)",
+          "expected": "TypeError",
+          "actual": {
+            "value": true,
+            "exception": null
+          }
+        },
+        {
+          "case": 10,
+          "input": "(True,)",
+          "expected": "TypeError",
+          "actual": {
+            "value": true,
+            "exception": null
+          }
+        }
+      ],
+      "error": null
+    }
+  },
+  {
+    "id": "parse-bool-04",
+    "chosen": {
+      "passed": true,
+      "checks": 10,
+      "failures": [],
+      "error": null
+    },
+    "rejected": {
+      "passed": false,
+      "checks": 10,
+      "failures": [
+        {
+          "case": 2,
+          "input": "(' YES ',)",
+          "expected": "True",
+          "actual": {
+            "value": false,
+            "exception": null
+          }
+        },
+        {
+          "case": 5,
+          "input": "('TRUE',)",
+          "expected": "True",
+          "actual": {
+            "value": false,
+            "exception": null
+          }
+        },
+        {
+          "case": 6,
+          "input": "('1',)",
+          "expected": "True",
+          "actual": {
+            "value": false,
+            "exception": null
+          }
+        },
+        {
+          "case": 7,
+          "input": "('',)",
+          "expected": "ValueError",
+          "actual": {
+            "value": false,
+            "exception": null
+          }
+        },
+        {
+          "case": 8,
+          "input": "('maybe',)",
+          "expected": "ValueError",
+          "actual": {
+            "value": false,
+            "exception": null
+          }
+        },
+        {
+          "case": 9,
+          "input": "(0,)",
+          "expected": "TypeError",
+          "actual": {
+            "value": false,
+            "exception": null
+          }
+        },
+        {
+          "case": 10,
+          "input": "(True,)",
+          "expected": "TypeError",
+          "actual": {
+            "value": false,
+            "exception": null
+          }
+        }
+      ],
+      "error": null
+    }
+  },
+  {
+    "id": "parse-bool-05",
+    "chosen": {
+      "passed": true,
+      "checks": 10,
+      "failures": [],
+      "error": null
+    },
+    "rejected": {
+      "passed": false,
+      "checks": 10,
+      "failures": [
+        {
+          "case": 1,
+          "input": "('false',)",
+          "expected": "False",
+          "actual": {
+            "value": [],
+            "exception": null
+          }
+        },
+        {
+          "case": 2,
+          "input": "(' YES ',)",
+          "expected": "True",
+          "actual": {
+            "value": [],
+            "exception": null
+          }
+        },
+        {
+          "case": 3,
+          "input": "('0',)",
+          "expected": "False",
+          "actual": {
+            "value": [],
+            "exception": null
+          }
+        },
+        {
+          "case": 4,
+          "input": "(' No\\n',)",
+          "expected": "False",
+          "actual": {
+            "value": [],
+            "exception": null
+          }
+        },
+        {
+          "case": 5,
+          "input": "('TRUE',)",
+          "expected": "True",
+          "actual": {
+            "value": [],
+            "exception": null
+          }
+        },
+        {
+          "case": 6,
+          "input": "('1',)",
+          "expected": "True",
+          "actual": {
+            "value": [],
+            "exception": null
+          }
+        },
+        {
+          "case": 7,
+          "input": "('',)",
+          "expected": "ValueError",
+          "actual": {
+            "value": [],
+            "exception": null
+          }
+        },
+        {
+          "case": 8,
+          "input": "('maybe',)",
+          "expected": "ValueError",
+          "actual": {
+            "value": [],
+            "exception": null
+          }
+        },
+        {
+          "case": 9,
+          "input": "(0,)",
+          "expected": "TypeError",
+          "actual": {
+            "value": [],
+            "exception": null
+          }
+        },
+        {
+          "case": 10,
+          "input": "(True,)",
+          "expected": "TypeError",
+          "actual": {
+            "value": [],
+            "exception": null
+          }
+        }
+      ],
+      "error": null
+    }
+  },
+  {
+    "id": "parse-bool-06",
+    "chosen": {
+      "passed": true,
+      "checks": 10,
+      "failures": [],
+      "error": null
+    },
+    "rejected": {
+      "passed": false,
+      "checks": 10,
+      "failures": [
+        {
+          "case": 1,
+          "input": "('false',)",
+          "expected": "False",
+          "actual": {
+            "value": {},
+            "exception": null
+          }
+        },
+        {
+          "case": 2,
+          "input": "(' YES ',)",
+          "expected": "True",
+          "actual": {
+            "value": {},
+            "exception": null
+          }
+        },
+        {
+          "case": 3,
+          "input": "('0',)",
+          "expected": "False",
+          "actual": {
+            "value": {},
+            "exception": null
+          }
+        },
+        {
+          "case": 4,
+          "input": "(' No\\n',)",
+          "expected": "False",
+          "actual": {
+            "value": {},
+            "exception": null
+          }
+        },
+        {
+          "case": 5,
+          "input": "('TRUE',)",
+          "expected": "True",
+          "actual": {
+            "value": {},
+            "exception": null
+          }
+        },
+        {
+          "case": 6,
+          "input": "('1',)",
+          "expected": "True",
+          "actual": {
+            "value": {},
+            "exception": null
+          }
+        },
+        {
+          "case": 7,
+          "input": "('',)",
+          "expected": "ValueError",
+          "actual": {
+            "value": {},
+            "exception": null
+          }
+        },
+        {
+          "case": 8,
+          "input": "('maybe',)",
+          "expected": "ValueError",
+          "actual": {
+            "value": {},
+            "exception": null
+          }
+        },
+        {
+          "case": 9,
+          "input": "(0,)",
+          "expected": "TypeError",
+          "actual": {
+            "value": {},
+            "exception": null
+          }
+        },
+        {
+          "case": 10,
+          "input": "(True,)",
+          "expected": "TypeError",
+          "actual": {
+            "value": {},
+            "exception": null
+          }
+        }
+      ],
+      "error": null
+    }
+  },
+  {
+    "id": "parse-bool-07",
+    "chosen": {
+      "passed": true,
+      "checks": 10,
+      "failures": [],
+      "error": null
+    },
+    "rejected": {
+      "passed": false,
+      "checks": 10,
+      "failures": [
+        {
+          "case": 1,
+          "input": "('false',)",
+          "expected": "False",
+          "actual": {
+            "value": "",
+            "exception": null
+          }
+        },
+        {
+          "case": 2,
+          "input": "(' YES ',)",
+          "expected": "True",
+          "actual": {
+            "value": "",
+            "exception": null
+          }
+        },
+        {
+          "case": 3,
+          "input": "('0',)",
+          "expected": "False",
+          "actual": {
+            "value": "",
+            "exception": null
+          }
+        },
+        {
+          "case": 4,
+          "input": "(' No\\n',)",
+          "expected": "False",
+          "actual": {
+            "value": "",
+            "exception": null
+          }
+        },
+        {
+          "case": 5,
+          "input": "('TRUE',)",
+          "expected": "True",
+          "actual": {
+            "value": "",
+            "exception": null
+          }
+        },
+        {
+          "case": 6,
+          "input": "('1',)",
+          "expected": "True",
+          "actual": {
+            "value": "",
+            "exception": null
+          }
+        },
+        {
+          "case": 7,
+          "input": "('',)",
+          "expected": "ValueError",
+          "actual": {
+            "value": "",
+            "exception": null
+          }
+        },
+        {
+          "case": 8,
+          "input": "('maybe',)",
+          "expected": "ValueError",
+          "actual": {
+            "value": "",
+            "exception": null
+          }
+        },
+        {
+          "case": 9,
+          "input": "(0,)",
+          "expected": "TypeError",
+          "actual": {
+            "value": "",
+            "exception": null
+          }
+        },
+        {
+          "case": 10,
+          "input": "(True,)",
+          "expected": "TypeError",
+          "actual": {
+            "value": "",
+            "exception": null
+          }
+        }
+      ],
+      "error": null
+    }
+  },
+  {
+    "id": "parse-bool-08",
+    "chosen": {
+      "passed": true,
+      "checks": 10,
+      "failures": [],
+      "error": null
+    },
+    "rejected": {
+      "passed": false,
+      "checks": 10,
+      "failures": [
+        {
+          "case": 1,
+          "input": "('false',)",
+          "expected": "False",
+          "actual": {
+            "value": "GET",
+            "exception": null
+          }
+        },
+        {
+          "case": 2,
+          "input": "(' YES ',)",
+          "expected": "True",
+          "actual": {
+            "value": "GET",
+            "exception": null
+          }
+        },
+        {
+          "case": 3,
+          "input": "('0',)",
+          "expected": "False",
+          "actual": {
+            "value": "GET",
+            "exception": null
+          }
+        },
+        {
+          "case": 4,
+          "input": "(' No\\n',)",
+          "expected": "False",
+          "actual": {
+            "value": "GET",
+            "exception": null
+          }
+        },
+        {
+          "case": 5,
+          "input": "('TRUE',)",
+          "expected": "True",
+          "actual": {
+            "value": "GET",
+            "exception": null
+          }
+        },
+        {
+          "case": 6,
+          "input": "('1',)",
+          "expected": "True",
+          "actual": {
+            "value": "GET",
+            "exception": null
+          }
+        },
+        {
+          "case": 7,
+          "input": "('',)",
+          "expected": "ValueError",
+          "actual": {
+            "value": "GET",
+            "exception": null
+          }
+        },
+        {
+          "case": 8,
+          "input": "('maybe',)",
+          "expected": "ValueError",
+          "actual": {
+            "value": "GET",
+            "exception": null
+          }
+        },
+        {
+          "case": 9,
+          "input": "(0,)",
+          "expected": "TypeError",
+          "actual": {
+            "value": "GET",
+            "exception": null
+          }
+        },
+        {
+          "case": 10,
+          "input": "(True,)",
+          "expected": "TypeError",
+          "actual": {
+            "value": "GET",
+            "exception": null
+          }
+        }
+      ],
+      "error": null
+    }
+  },
+  {
+    "id": "parse-bool-09",
+    "chosen": {
+      "passed": true,
+      "checks": 10,
+      "failures": [],
+      "error": null
+    },
+    "rejected": {
+      "passed": false,
+      "checks": 10,
+      "failures": [
+        {
+          "case": 1,
+          "input": "('false',)",
+          "expected": "False",
+          "actual": {
+            "value": "bad",
+            "exception": null
+          }
+        },
+        {
+          "case": 2,
+          "input": "(' YES ',)",
+          "expected": "True",
+          "actual": {
+            "value": "bad",
+            "exception": null
+          }
+        },
+        {
+          "case": 3,
+          "input": "('0',)",
+          "expected": "False",
+          "actual": {
+            "value": "bad",
+            "exception": null
+          }
+        },
+        {
+          "case": 4,
+          "input": "(' No\\n',)",
+          "expected": "False",
+          "actual": {
+            "value": "bad",
+            "exception": null
+          }
+        },
+        {
+          "case": 5,
+          "input": "('TRUE',)",
+          "expected": "True",
+          "actual": {
+            "value": "bad",
+            "exception": null
+          }
+        },
+        {
+          "case": 6,
+          "input": "('1',)",
+          "expected": "True",
+          "actual": {
+            "value": "bad",
+            "exception": null
+          }
+        },
+        {
+          "case": 7,
+          "input": "('',)",
+          "expected": "ValueError",
+          "actual": {
+            "value": "bad",
+            "exception": null
+          }
+        },
+        {
+          "case": 8,
+          "input": "('maybe',)",
+          "expected": "ValueError",
+          "actual": {
+            "value": "bad",
+            "exception": null
+          }
+        },
+        {
+          "case": 9,
+          "input": "(0,)",
+          "expected": "TypeError",
+          "actual": {
+            "value": "bad",
+            "exception": null
+          }
+        },
+        {
+          "case": 10,
+          "input": "(True,)",
+          "expected": "TypeError",
+          "actual": {
+            "value": "bad",
+            "exception": null
+          }
+        }
+      ],
+      "error": null
+    }
+  },
+  {
+    "id": "unique-stable-00",
+    "chosen": {
+      "passed": true,
+      "checks": 7,
+      "failures": [],
+      "error": null
+    },
+    "rejected": {
+      "passed": false,
+      "checks": 7,
+      "failures": [
+        {
+          "case": 1,
+          "input": "([3, 1, 3, 2, 1],)",
+          "expected": "[3, 1, 2]",
+          "actual": {
+            "value": null,
+            "exception": null
+          }
+        },
+        {
+          "case": 2,
+          "input": "([[1], [1], [2]],)",
+          "expected": "[[1], [2]]",
+          "actual": {
+            "value": null,
+            "exception": null
+          }
+        },
+        {
+          "case": 3,
+          "input": "([],)",
+          "expected": "[]",
+          "actual": {
+            "value": null,
+            "exception": null
+          }
+        },
+        {
+          "case": 4,
+          "input": "([{'x': 1}, {'x': 1}, {'x': 2}],)",
+          "expected": "[{'x': 1}, {'x': 2}]",
+          "actual": {
+            "value": null,
+            "exception": null
+          }
+        },
+        {
+          "case": 5,
+          "input": "([True, 1, False, 0],)",
+          "expected": "[True, False]",
+          "actual": {
+            "value": null,
+            "exception": null
+          }
+        },
+        {
+          "case": 6,
+          "input": "([None, 'a', None],)",
+          "expected": "[None, 'a']",
+          "actual": {
+            "value": null,
+            "exception": null
+          }
+        },
+        {
+          "case": 7,
+          "input": "(['z', 'a', 'z', 'b'],)",
+          "expected": "['z', 'a', 'b']",
+          "actual": {
+            "value": null,
+            "exception": null
+          }
+        }
+      ],
+      "error": null
+    }
+  },
+  {
+    "id": "unique-stable-01",
+    "chosen": {
+      "passed": true,
+      "checks": 7,
+      "failures": [],
+      "error": null
+    },
+    "rejected": {
+      "passed": false,
+      "checks": 7,
+      "failures": [
+        {
+          "case": 1,
+          "input": "([3, 1, 3, 2, 1],)",
+          "expected": "[3, 1, 2]",
+          "actual": {
+            "value": 0,
+            "exception": null
+          }
+        },
+        {
+          "case": 2,
+          "input": "([[1], [1], [2]],)",
+          "expected": "[[1], [2]]",
+          "actual": {
+            "value": 0,
+            "exception": null
+          }
+        },
+        {
+          "case": 3,
+          "input": "([],)",
+          "expected": "[]",
+          "actual": {
+            "value": 0,
+            "exception": null
+          }
+        },
+        {
+          "case": 4,
+          "input": "([{'x': 1}, {'x': 1}, {'x': 2}],)",
+          "expected": "[{'x': 1}, {'x': 2}]",
+          "actual": {
+            "value": 0,
+            "exception": null
+          }
+        },
+        {
+          "case": 5,
+          "input": "([True, 1, False, 0],)",
+          "expected": "[True, False]",
+          "actual": {
+            "value": 0,
+            "exception": null
+          }
+        },
+        {
+          "case": 6,
+          "input": "([None, 'a', None],)",
+          "expected": "[None, 'a']",
+          "actual": {
+            "value": 0,
+            "exception": null
+          }
+        },
+        {
+          "case": 7,
+          "input": "(['z', 'a', 'z', 'b'],)",
+          "expected": "['z', 'a', 'b']",
+          "actual": {
+            "value": 0,
+            "exception": null
+          }
+        }
+      ],
+      "error": null
+    }
+  },
+  {
+    "id": "unique-stable-02",
+    "chosen": {
+      "passed": true,
+      "checks": 7,
+      "failures": [],
+      "error": null
+    },
+    "rejected": {
+      "passed": false,
+      "checks": 7,
+      "failures": [
+        {
+          "case": 1,
+          "input": "([3, 1, 3, 2, 1],)",
+          "expected": "[3, 1, 2]",
+          "actual": {
+            "value": 1,
+            "exception": null
+          }
+        },
+        {
+          "case": 2,
+          "input": "([[1], [1], [2]],)",
+          "expected": "[[1], [2]]",
+          "actual": {
+            "value": 1,
+            "exception": null
+          }
+        },
+        {
+          "case": 3,
+          "input": "([],)",
+          "expected": "[]",
+          "actual": {
+            "value": 1,
+            "exception": null
+          }
+        },
+        {
+          "case": 4,
+          "input": "([{'x': 1}, {'x': 1}, {'x': 2}],)",
+          "expected": "[{'x': 1}, {'x': 2}]",
+          "actual": {
+            "value": 1,
+            "exception": null
+          }
+        },
+        {
+          "case": 5,
+          "input": "([True, 1, False, 0],)",
+          "expected": "[True, False]",
+          "actual": {
+            "value": 1,
+            "exception": null
+          }
+        },
+        {
+          "case": 6,
+          "input": "([None, 'a', None],)",
+          "expected": "[None, 'a']",
+          "actual": {
+            "value": 1,
+            "exception": null
+          }
+        },
+        {
+          "case": 7,
+          "input": "(['z', 'a', 'z', 'b'],)",
+          "expected": "['z', 'a', 'b']",
+          "actual": {
+            "value": 1,
+            "exception": null
+          }
+        }
+      ],
+      "error": null
+    }
+  },
+  {
+    "id": "unique-stable-03",
+    "chosen": {
+      "passed": true,
+      "checks": 7,
+      "failures": [],
+      "error": null
+    },
+    "rejected": {
+      "passed": false,
+      "checks": 7,
+      "failures": [
+        {
+          "case": 1,
+          "input": "([3, 1, 3, 2, 1],)",
+          "expected": "[3, 1, 2]",
+          "actual": {
+            "value": true,
+            "exception": null
+          }
+        },
+        {
+          "case": 2,
+          "input": "([[1], [1], [2]],)",
+          "expected": "[[1], [2]]",
+          "actual": {
+            "value": true,
+            "exception": null
+          }
+        },
+        {
+          "case": 3,
+          "input": "([],)",
+          "expected": "[]",
+          "actual": {
+            "value": true,
+            "exception": null
+          }
+        },
+        {
+          "case": 4,
+          "input": "([{'x': 1}, {'x': 1}, {'x': 2}],)",
+          "expected": "[{'x': 1}, {'x': 2}]",
+          "actual": {
+            "value": true,
+            "exception": null
+          }
+        },
+        {
+          "case": 5,
+          "input": "([True, 1, False, 0],)",
+          "expected": "[True, False]",
+          "actual": {
+            "value": true,
+            "exception": null
+          }
+        },
+        {
+          "case": 6,
+          "input": "([None, 'a', None],)",
+          "expected": "[None, 'a']",
+          "actual": {
+            "value": true,
+            "exception": null
+          }
+        },
+        {
+          "case": 7,
+          "input": "(['z', 'a', 'z', 'b'],)",
+          "expected": "['z', 'a', 'b']",
+          "actual": {
+            "value": true,
+            "exception": null
+          }
+        }
+      ],
+      "error": null
+    }
+  },
+  {
+    "id": "unique-stable-04",
+    "chosen": {
+      "passed": true,
+      "checks": 7,
+      "failures": [],
+      "error": null
+    },
+    "rejected": {
+      "passed": false,
+      "checks": 7,
+      "failures": [
+        {
+          "case": 1,
+          "input": "([3, 1, 3, 2, 1],)",
+          "expected": "[3, 1, 2]",
+          "actual": {
+            "value": false,
+            "exception": null
+          }
+        },
+        {
+          "case": 2,
+          "input": "([[1], [1], [2]],)",
+          "expected": "[[1], [2]]",
+          "actual": {
+            "value": false,
+            "exception": null
+          }
+        },
+        {
+          "case": 3,
+          "input": "([],)",
+          "expected": "[]",
+          "actual": {
+            "value": false,
+            "exception": null
+          }
+        },
+        {
+          "case": 4,
+          "input": "([{'x': 1}, {'x': 1}, {'x': 2}],)",
+          "expected": "[{'x': 1}, {'x': 2}]",
+          "actual": {
+            "value": false,
+            "exception": null
+          }
+        },
+        {
+          "case": 5,
+          "input": "([True, 1, False, 0],)",
+          "expected": "[True, False]",
+          "actual": {
+            "value": false,
+            "exception": null
+          }
+        },
+        {
+          "case": 6,
+          "input": "([None, 'a', None],)",
+          "expected": "[None, 'a']",
+          "actual": {
+            "value": false,
+            "exception": null
+          }
+        },
+        {
+          "case": 7,
+          "input": "(['z', 'a', 'z', 'b'],)",
+          "expected": "['z', 'a', 'b']",
+          "actual": {
+            "value": false,
+            "exception": null
+          }
+        }
+      ],
+      "error": null
+    }
+  },
+  {
+    "id": "unique-stable-05",
+    "chosen": {
+      "passed": true,
+      "checks": 7,
+      "failures": [],
+      "error": null
+    },
+    "rejected": {
+      "passed": false,
+      "checks": 7,
+      "failures": [
+        {
+          "case": 1,
+          "input": "([3, 1, 3, 2, 1],)",
+          "expected": "[3, 1, 2]",
+          "actual": {
+            "value": [],
+            "exception": null
+          }
+        },
+        {
+          "case": 2,
+          "input": "([[1], [1], [2]],)",
+          "expected": "[[1], [2]]",
+          "actual": {
+            "value": [],
+            "exception": null
+          }
+        },
+        {
+          "case": 4,
+          "input": "([{'x': 1}, {'x': 1}, {'x': 2}],)",
+          "expected": "[{'x': 1}, {'x': 2}]",
+          "actual": {
+            "value": [],
+            "exception": null
+          }
+        },
+        {
+          "case": 5,
+          "input": "([True, 1, False, 0],)",
+          "expected": "[True, False]",
+          "actual": {
+            "value": [],
+            "exception": null
+          }
+        },
+        {
+          "case": 6,
+          "input": "([None, 'a', None],)",
+          "expected": "[None, 'a']",
+          "actual": {
+            "value": [],
+            "exception": null
+          }
+        },
+        {
+          "case": 7,
+          "input": "(['z', 'a', 'z', 'b'],)",
+          "expected": "['z', 'a', 'b']",
+          "actual": {
+            "value": [],
+            "exception": null
+          }
+        }
+      ],
+      "error": null
+    }
+  },
+  {
+    "id": "unique-stable-06",
+    "chosen": {
+      "passed": true,
+      "checks": 7,
+      "failures": [],
+      "error": null
+    },
+    "rejected": {
+      "passed": false,
+      "checks": 7,
+      "failures": [
+        {
+          "case": 1,
+          "input": "([3, 1, 3, 2, 1],)",
+          "expected": "[3, 1, 2]",
+          "actual": {
+            "value": {},
+            "exception": null
+          }
+        },
+        {
+          "case": 2,
+          "input": "([[1], [1], [2]],)",
+          "expected": "[[1], [2]]",
+          "actual": {
+            "value": {},
+            "exception": null
+          }
+        },
+        {
+          "case": 3,
+          "input": "([],)",
+          "expected": "[]",
+          "actual": {
+            "value": {},
+            "exception": null
+          }
+        },
+        {
+          "case": 4,
+          "input": "([{'x': 1}, {'x': 1}, {'x': 2}],)",
+          "expected": "[{'x': 1}, {'x': 2}]",
+          "actual": {
+            "value": {},
+            "exception": null
+          }
+        },
+        {
+          "case": 5,
+          "input": "([True, 1, False, 0],)",
+          "expected": "[True, False]",
+          "actual": {
+            "value": {},
+            "exception": null
+          }
+        },
+        {
+          "case": 6,
+          "input": "([None, 'a', None],)",
+          "expected": "[None, 'a']",
+          "actual": {
+            "value": {},
+            "exception": null
+          }
+        },
+        {
+          "case": 7,
+          "input": "(['z', 'a', 'z', 'b'],)",
+          "expected": "['z', 'a', 'b']",
+          "actual": {
+            "value": {},
+            "exception": null
+          }
+        }
+      ],
+      "error": null
+    }
+  },
+  {
+    "id": "unique-stable-07",
+    "chosen": {
+      "passed": true,
+      "checks": 7,
+      "failures": [],
+      "error": null
+    },
+    "rejected": {
+      "passed": false,
+      "checks": 7,
+      "failures": [
+        {
+          "case": 1,
+          "input": "([3, 1, 3, 2, 1],)",
+          "expected": "[3, 1, 2]",
+          "actual": {
+            "value": "",
+            "exception": null
+          }
+        },
+        {
+          "case": 2,
+          "input": "([[1], [1], [2]],)",
+          "expected": "[[1], [2]]",
+          "actual": {
+            "value": "",
+            "exception": null
+          }
+        },
+        {
+          "case": 3,
+          "input": "([],)",
+          "expected": "[]",
+          "actual": {
+            "value": "",
+            "exception": null
+          }
+        },
+        {
+          "case": 4,
+          "input": "([{'x': 1}, {'x': 1}, {'x': 2}],)",
+          "expected": "[{'x': 1}, {'x': 2}]",
+          "actual": {
+            "value": "",
+            "exception": null
+          }
+        },
+        {
+          "case": 5,
+          "input": "([True, 1, False, 0],)",
+          "expected": "[True, False]",
+          "actual": {
+            "value": "",
+            "exception": null
+          }
+        },
+        {
+          "case": 6,
+          "input": "([None, 'a', None],)",
+          "expected": "[None, 'a']",
+          "actual": {
+            "value": "",
+            "exception": null
+          }
+        },
+        {
+          "case": 7,
+          "input": "(['z', 'a', 'z', 'b'],)",
+          "expected": "['z', 'a', 'b']",
+          "actual": {
+            "value": "",
+            "exception": null
+          }
+        }
+      ],
+      "error": null
+    }
+  },
+  {
+    "id": "unique-stable-08",
+    "chosen": {
+      "passed": true,
+      "checks": 7,
+      "failures": [],
+      "error": null
+    },
+    "rejected": {
+      "passed": false,
+      "checks": 7,
+      "failures": [
+        {
+          "case": 1,
+          "input": "([3, 1, 3, 2, 1],)",
+          "expected": "[3, 1, 2]",
+          "actual": {
+            "value": "GET",
+            "exception": null
+          }
+        },
+        {
+          "case": 2,
+          "input": "([[1], [1], [2]],)",
+          "expected": "[[1], [2]]",
+          "actual": {
+            "value": "GET",
+            "exception": null
+          }
+        },
+        {
+          "case": 3,
+          "input": "([],)",
+          "expected": "[]",
+          "actual": {
+            "value": "GET",
+            "exception": null
+          }
+        },
+        {
+          "case": 4,
+          "input": "([{'x': 1}, {'x': 1}, {'x': 2}],)",
+          "expected": "[{'x': 1}, {'x': 2}]",
+          "actual": {
+            "value": "GET",
+            "exception": null
+          }
+        },
+        {
+          "case": 5,
+          "input": "([True, 1, False, 0],)",
+          "expected": "[True, False]",
+          "actual": {
+            "value": "GET",
+            "exception": null
+          }
+        },
+        {
+          "case": 6,
+          "input": "([None, 'a', None],)",
+          "expected": "[None, 'a']",
+          "actual": {
+            "value": "GET",
+            "exception": null
+          }
+        },
+        {
+          "case": 7,
+          "input": "(['z', 'a', 'z', 'b'],)",
+          "expected": "['z', 'a', 'b']",
+          "actual": {
+            "value": "GET",
+            "exception": null
+          }
+        }
+      ],
+      "error": null
+    }
+  },
+  {
+    "id": "unique-stable-09",
+    "chosen": {
+      "passed": true,
+      "checks": 7,
+      "failures": [],
+      "error": null
+    },
+    "rejected": {
+      "passed": false,
+      "checks": 7,
+      "failures": [
+        {
+          "case": 1,
+          "input": "([3, 1, 3, 2, 1],)",
+          "expected": "[3, 1, 2]",
+          "actual": {
+            "value": "bad",
+            "exception": null
+          }
+        },
+        {
+          "case": 2,
+          "input": "([[1], [1], [2]],)",
+          "expected": "[[1], [2]]",
+          "actual": {
+            "value": "bad",
+            "exception": null
+          }
+        },
+        {
+          "case": 3,
+          "input": "([],)",
+          "expected": "[]",
+          "actual": {
+            "value": "bad",
+            "exception": null
+          }
+        },
+        {
+          "case": 4,
+          "input": "([{'x': 1}, {'x': 1}, {'x': 2}],)",
+          "expected": "[{'x': 1}, {'x': 2}]",
+          "actual": {
+            "value": "bad",
+            "exception": null
+          }
+        },
+        {
+          "case": 5,
+          "input": "([True, 1, False, 0],)",
+          "expected": "[True, False]",
+          "actual": {
+            "value": "bad",
+            "exception": null
+          }
+        },
+        {
+          "case": 6,
+          "input": "([None, 'a', None],)",
+          "expected": "[None, 'a']",
+          "actual": {
+            "value": "bad",
+            "exception": null
+          }
+        },
+        {
+          "case": 7,
+          "input": "(['z', 'a', 'z', 'b'],)",
+          "expected": "['z', 'a', 'b']",
+          "actual": {
+            "value": "bad",
+            "exception": null
+          }
+        }
+      ],
+      "error": null
+    }
+  }
+]

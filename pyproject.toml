@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-edit-dpo"
+version = "0.1.0"
+description = "A small test-verified DPO experiment inside a coding-agent loop"
+requires-python = ">=3.11"
+license = "MIT"
+dependencies = ["aci-patch-agent @ git+https://github.com/altaal/aci-patch-agent.git@42a2683b643b3b9af2f034529032444accf0c849"]
+
+[project.optional-dependencies]
+train = ["torch==2.14.0", "transformers==5.17.0", "trl==1.14.0", "peft==0.21.0", "datasets==5.0.1", "accelerate==1.15.0"]
+
+[tool.setuptools.packages.find]
+include = ["agent_edit_dpo*"]
