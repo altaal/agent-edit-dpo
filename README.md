@@ -32,11 +32,15 @@ python3 -m venv .venv
 . .venv/bin/activate
 python -m pip install -e .
 python -m unittest discover -s tests -v
+python -m agent_edit_dpo.verify
 python -m agent_edit_dpo.evaluate --report-only --output results/week6-before-after
 ```
 
 These commands use no model API key. The report regenerates the committed scores
 from traces; it does not run a model or independently re-grade patches.
+The verifier checks saved labels, task separation, training/data/weight hashes,
+source hashes, all 60 attempt identities, and the reported denominators. These are
+artifact-consistency checks, not a new training or behavioral test run.
 
 ## Run the before/after comparison
 
@@ -99,7 +103,7 @@ python -m agent_edit_dpo.data --output runs/rebuilt-data
 | Seed and precision | 7; float32 |
 | Longest training sequence | 667 tokens, below the 1,024-token limit |
 | Mean training loss | 0.63836 |
-| Elapsed training pipeline | 111.39 seconds on the recorded MPS machine |
+| Reference scoring, training, and adapter save | 111.39 seconds on the recorded MPS machine; excludes model download/load |
 | Changed trainable tensors | 96 |
 
 [Training metrics](training/main/metrics.json) include per-step logs;
@@ -139,6 +143,26 @@ repos: that model, its native tool-call interface, and its action limit differ.
 
 Measured scores and concrete failure examples are in [the saved table](results/week6-before-after/summary.md)
 and [what failed / what I learned](FAILURES.md).
+
+## Measured outcome: no improvement
+
+September 28, 2026, all 60 declared attempts completed:
+
+| Condition | Submitted and passed | Correct final patches | Mean actions |
+| --- | ---: | ---: | ---: |
+| Base model | 0/30 (0%) | 0/30 | 6 |
+| DPO adapter | 0/30 (0%) | 0/30 | 6 |
+
+All attempts exhausted the six-action budget without submitting. None produced a
+correct final patch. Training changed the weights and some outputs, but this setup
+did **not** improve completed repairs. Invalid tool arguments and unusable response
+formats dominated the observed failures. This establishes a runnable training and
+evaluation pipeline, not a capability gain or a general conclusion about DPO.
+
+The shared report format also contains recovery counters (`fault_exposed`,
+`passed_when_exposed`, `failed_actions`, `repeated_actions`). This experiment does
+not collect those counters; their zero defaults are **not measurements** of tool
+failures. Use the saved events and the primary pass/action metrics above.
 
 ## Sources and licenses
 

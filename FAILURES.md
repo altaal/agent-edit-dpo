@@ -5,6 +5,12 @@ The complete before/after counts are in the
 is retained, including invalid outputs and action-limit failures. The experiment
 uses ten authored tasks, repeated with greedy decoding, not 30 independent tasks.
 
+**Final result: base 0/30; DPO 0/30.** All 60 attempts exhausted six actions without
+submitting, and none had a correct final patch. The result provides no evidence of
+improved agent performance from this training run. A stronger experiment would
+first establish reliable tool use on separate development tasks; these scores
+cannot settle whether DPO improves an already competent tool-using model.
+
 ## 1. A plausible tool name is not a usable tool call
 
 In [clamp, base, attempt 1](results/week6-before-after/clamp--base--1.json), the

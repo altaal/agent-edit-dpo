@@ -7,4 +7,6 @@ dist/
 .DS_Store
 runs/
 .cache/
+.env
+.env.*
 training/smoke/

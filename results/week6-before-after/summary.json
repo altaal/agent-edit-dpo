@@ -1,0 +1,24 @@
+{
+  "base": {
+    "passed": 0,
+    "attempts": 30,
+    "pass_rate": 0.0,
+    "mean_actions": 6,
+    "actions_observed": 30,
+    "fault_exposed": 0,
+    "passed_when_exposed": 0,
+    "failed_actions": 0,
+    "repeated_actions": 0
+  },
+  "dpo": {
+    "passed": 0,
+    "attempts": 30,
+    "pass_rate": 0.0,
+    "mean_actions": 6,
+    "actions_observed": 30,
+    "fault_exposed": 0,
+    "passed_when_exposed": 0,
+    "failed_actions": 0,
+    "repeated_actions": 0
+  }
+}

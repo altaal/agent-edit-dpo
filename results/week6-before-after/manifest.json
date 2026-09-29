@@ -1,0 +1,415 @@
+{
+  "created_at": "2026-09-28T23:43:41.541918+00:00",
+  "task_sha256": "f1b48ba279bf1a1fa7f2480fee3d30ae2c2fe3ac51cde905fd10e5ae363ee4f5",
+  "agent_source_sha256": {
+    "__init__.py": "09ee1078e8eb0f4663f67e368746f5317d4ddd5988c415e1751dcbf263f63f8c",
+    "__main__.py": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+    "ablation.py": "234bf2c6d3f7ecccfc9ef9cd9eefa068087dddaafe8dcaf5ba5a12e11ed0e1de",
+    "agent.py": "31e3ba7be07c602ce08d6395d525c4f6db38b8d0280acd70bcdc185564824176",
+    "cli.py": "c59dd885d76d0355c34d9d9b187b20544e0cedca93b9d96e5b57b35d9bd8ab16",
+    "client.py": "fb9accbf5917a8d5522ba64dcc11e2ce5960f9a20c535387e41bccc85bedbccf",
+    "eval_tasks.py": "f7db472a8ac1ab3b1b2188a170601d5568153d61a2f7df3a2923276bb1a3c664",
+    "experiment.py": "81a3b9230469d5db32eb7e862a4724b83d5ecf6ec067a065faa44cc87522d30f",
+    "report.py": "94a81d3a9dfa871a518593c776fb48123570072771e06cba355a30f399a5ffa5",
+    "sandbox.py": "a9ae142e23c59dfb87c540355417e5356d4d6e345e673df86d8c097c0c06bb6a",
+    "tasks.py": "b2586719cb3aa9b98d4d3774878143a612b0586fd364c805a792570511e01c8e",
+    "tools.py": "a98c0788dcf1dbd270bba6b257aab1711b05f504429f17b443cfe88cc148d791"
+  },
+  "conditions": [
+    "base",
+    "dpo"
+  ],
+  "attempts": [
+    {
+      "id": "clamp--base--1",
+      "task": "clamp",
+      "condition": "base",
+      "repeat": 1
+    },
+    {
+      "id": "clamp--dpo--1",
+      "task": "clamp",
+      "condition": "dpo",
+      "repeat": 1
+    },
+    {
+      "id": "safe-mean--base--1",
+      "task": "safe-mean",
+      "condition": "base",
+      "repeat": 1
+    },
+    {
+      "id": "safe-mean--dpo--1",
+      "task": "safe-mean",
+      "condition": "dpo",
+      "repeat": 1
+    },
+    {
+      "id": "flatten-once--base--1",
+      "task": "flatten-once",
+      "condition": "base",
+      "repeat": 1
+    },
+    {
+      "id": "flatten-once--dpo--1",
+      "task": "flatten-once",
+      "condition": "dpo",
+      "repeat": 1
+    },
+    {
+      "id": "count-words--base--1",
+      "task": "count-words",
+      "condition": "base",
+      "repeat": 1
+    },
+    {
+      "id": "count-words--dpo--1",
+      "task": "count-words",
+      "condition": "dpo",
+      "repeat": 1
+    },
+    {
+      "id": "rotate-left--base--1",
+      "task": "rotate-left",
+      "condition": "base",
+      "repeat": 1
+    },
+    {
+      "id": "rotate-left--dpo--1",
+      "task": "rotate-left",
+      "condition": "dpo",
+      "repeat": 1
+    },
+    {
+      "id": "palindrome--base--1",
+      "task": "palindrome",
+      "condition": "base",
+      "repeat": 1
+    },
+    {
+      "id": "palindrome--dpo--1",
+      "task": "palindrome",
+      "condition": "dpo",
+      "repeat": 1
+    },
+    {
+      "id": "parse-pairs--base--1",
+      "task": "parse-pairs",
+      "condition": "base",
+      "repeat": 1
+    },
+    {
+      "id": "parse-pairs--dpo--1",
+      "task": "parse-pairs",
+      "condition": "dpo",
+      "repeat": 1
+    },
+    {
+      "id": "running-total--base--1",
+      "task": "running-total",
+      "condition": "base",
+      "repeat": 1
+    },
+    {
+      "id": "running-total--dpo--1",
+      "task": "running-total",
+      "condition": "dpo",
+      "repeat": 1
+    },
+    {
+      "id": "strip-suffix--base--1",
+      "task": "strip-suffix",
+      "condition": "base",
+      "repeat": 1
+    },
+    {
+      "id": "strip-suffix--dpo--1",
+      "task": "strip-suffix",
+      "condition": "dpo",
+      "repeat": 1
+    },
+    {
+      "id": "transpose--base--1",
+      "task": "transpose",
+      "condition": "base",
+      "repeat": 1
+    },
+    {
+      "id": "transpose--dpo--1",
+      "task": "transpose",
+      "condition": "dpo",
+      "repeat": 1
+    },
+    {
+      "id": "clamp--base--2",
+      "task": "clamp",
+      "condition": "base",
+      "repeat": 2
+    },
+    {
+      "id": "clamp--dpo--2",
+      "task": "clamp",
+      "condition": "dpo",
+      "repeat": 2
+    },
+    {
+      "id": "safe-mean--base--2",
+      "task": "safe-mean",
+      "condition": "base",
+      "repeat": 2
+    },
+    {
+      "id": "safe-mean--dpo--2",
+      "task": "safe-mean",
+      "condition": "dpo",
+      "repeat": 2
+    },
+    {
+      "id": "flatten-once--base--2",
+      "task": "flatten-once",
+      "condition": "base",
+      "repeat": 2
+    },
+    {
+      "id": "flatten-once--dpo--2",
+      "task": "flatten-once",
+      "condition": "dpo",
+      "repeat": 2
+    },
+    {
+      "id": "count-words--base--2",
+      "task": "count-words",
+      "condition": "base",
+      "repeat": 2
+    },
+    {
+      "id": "count-words--dpo--2",
+      "task": "count-words",
+      "condition": "dpo",
+      "repeat": 2
+    },
+    {
+      "id": "rotate-left--base--2",
+      "task": "rotate-left",
+      "condition": "base",
+      "repeat": 2
+    },
+    {
+      "id": "rotate-left--dpo--2",
+      "task": "rotate-left",
+      "condition": "dpo",
+      "repeat": 2
+    },
+    {
+      "id": "palindrome--base--2",
+      "task": "palindrome",
+      "condition": "base",
+      "repeat": 2
+    },
+    {
+      "id": "palindrome--dpo--2",
+      "task": "palindrome",
+      "condition": "dpo",
+      "repeat": 2
+    },
+    {
+      "id": "parse-pairs--base--2",
+      "task": "parse-pairs",
+      "condition": "base",
+      "repeat": 2
+    },
+    {
+      "id": "parse-pairs--dpo--2",
+      "task": "parse-pairs",
+      "condition": "dpo",
+      "repeat": 2
+    },
+    {
+      "id": "running-total--base--2",
+      "task": "running-total",
+      "condition": "base",
+      "repeat": 2
+    },
+    {
+      "id": "running-total--dpo--2",
+      "task": "running-total",
+      "condition": "dpo",
+      "repeat": 2
+    },
+    {
+      "id": "strip-suffix--base--2",
+      "task": "strip-suffix",
+      "condition": "base",
+      "repeat": 2
+    },
+    {
+      "id": "strip-suffix--dpo--2",
+      "task": "strip-suffix",
+      "condition": "dpo",
+      "repeat": 2
+    },
+    {
+      "id": "transpose--base--2",
+      "task": "transpose",
+      "condition": "base",
+      "repeat": 2
+    },
+    {
+      "id": "transpose--dpo--2",
+      "task": "transpose",
+      "condition": "dpo",
+      "repeat": 2
+    },
+    {
+      "id": "clamp--base--3",
+      "task": "clamp",
+      "condition": "base",
+      "repeat": 3
+    },
+    {
+      "id": "clamp--dpo--3",
+      "task": "clamp",
+      "condition": "dpo",
+      "repeat": 3
+    },
+    {
+      "id": "safe-mean--base--3",
+      "task": "safe-mean",
+      "condition": "base",
+      "repeat": 3
+    },
+    {
+      "id": "safe-mean--dpo--3",
+      "task": "safe-mean",
+      "condition": "dpo",
+      "repeat": 3
+    },
+    {
+      "id": "flatten-once--base--3",
+      "task": "flatten-once",
+      "condition": "base",
+      "repeat": 3
+    },
+    {
+      "id": "flatten-once--dpo--3",
+      "task": "flatten-once",
+      "condition": "dpo",
+      "repeat": 3
+    },
+    {
+      "id": "count-words--base--3",
+      "task": "count-words",
+      "condition": "base",
+      "repeat": 3
+    },
+    {
+      "id": "count-words--dpo--3",
+      "task": "count-words",
+      "condition": "dpo",
+      "repeat": 3
+    },
+    {
+      "id": "rotate-left--base--3",
+      "task": "rotate-left",
+      "condition": "base",
+      "repeat": 3
+    },
+    {
+      "id": "rotate-left--dpo--3",
+      "task": "rotate-left",
+      "condition": "dpo",
+      "repeat": 3
+    },
+    {
+      "id": "palindrome--base--3",
+      "task": "palindrome",
+      "condition": "base",
+      "repeat": 3
+    },
+    {
+      "id": "palindrome--dpo--3",
+      "task": "palindrome",
+      "condition": "dpo",
+      "repeat": 3
+    },
+    {
+      "id": "parse-pairs--base--3",
+      "task": "parse-pairs",
+      "condition": "base",
+      "repeat": 3
+    },
+    {
+      "id": "parse-pairs--dpo--3",
+      "task": "parse-pairs",
+      "condition": "dpo",
+      "repeat": 3
+    },
+    {
+      "id": "running-total--base--3",
+      "task": "running-total",
+      "condition": "base",
+      "repeat": 3
+    },
+    {
+      "id": "running-total--dpo--3",
+      "task": "running-total",
+      "condition": "dpo",
+      "repeat": 3
+    },
+    {
+      "id": "strip-suffix--base--3",
+      "task": "strip-suffix",
+      "condition": "base",
+      "repeat": 3
+    },
+    {
+      "id": "strip-suffix--dpo--3",
+      "task": "strip-suffix",
+      "condition": "dpo",
+      "repeat": 3
+    },
+    {
+      "id": "transpose--base--3",
+      "task": "transpose",
+      "condition": "base",
+      "repeat": 3
+    },
+    {
+      "id": "transpose--dpo--3",
+      "task": "transpose",
+      "condition": "dpo",
+      "repeat": 3
+    }
+  ],
+  "experiment": "base-versus-dpo",
+  "model": {
+    "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775"
+  },
+  "agent_revision": "42a2683b643b3b9af2f034529032444accf0c849",
+  "device": "mps",
+  "max_actions": 6,
+  "max_total_tokens": 32000,
+  "max_new_tokens": 384,
+  "do_sample": false,
+  "seed": 7,
+  "text_tool_protocol": "\nReturn exactly one JSON object: {\"tool\": \"edit\", \"arguments\": {\"start\": 1, \"end\": 2, \"replacement\": \"...\"}}. No prose or markdown. For test or submit use empty arguments. Available tools: [{\"type\": \"function\", \"function\": {\"name\": \"view\", \"description\": \"Show numbered lines of solution.py.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"start\": {\"type\": \"integer\"}, \"end\": {\"type\": \"integer\"}}, \"required\": [], \"additionalProperties\": false}}}, {\"type\": \"function\", \"function\": {\"name\": \"edit\", \"description\": \"Replace an inclusive line range. Invalid Python syntax is rejected without changing the source.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"start\": {\"type\": \"integer\"}, \"end\": {\"type\": \"integer\"}, \"replacement\": {\"type\": \"string\"}}, \"required\": [\"start\", \"end\", \"replacement\"], \"additionalProperties\": false}}}, {\"type\": \"function\", \"function\": {\"name\": \"test\", \"description\": \"Run example checks in an isolated container. Passing examples is not final success.\", \"parameters\": {\"type\": \"object\", \"properties\": {}, \"required\": [], \"additionalProperties\": false}}}, {\"type\": \"function\", \"function\": {\"name\": \"submit\", \"description\": \"Finish and submit the current source for separate evaluation.\", \"parameters\": {\"type\": \"object\", \"properties\": {}, \"required\": [], \"additionalProperties\": false}}}]",
+  "image": {
+    "image": "python@sha256:da047cb8f9d1d98e5c070f5300ba9f7274e33b8fc0e5be5ed88740aed1b95ba9",
+    "image_id": "sha256:da047cb8f9d1d98e5c070f5300ba9f7274e33b8fc0e5be5ed88740aed1b95ba9",
+    "repo_digests": [
+      "python@sha256:da047cb8f9d1d98e5c070f5300ba9f7274e33b8fc0e5be5ed88740aed1b95ba9"
+    ],
+    "architecture": "arm64"
+  },
+  "adapter_sha256": "ca6f666e83263dc8474d078461ae1b030a0ec92f28ea175e3650d9b77d8ed893",
+  "source_sha256": {
+    "__init__.py": "0e7ff35788ad908fcdd05324618107e3653cc4d68ffe5786321ad108c5d759ce",
+    "data.py": "c9872b3ec31781395f77a18299132747df04b15c54c32511185a910258e475e2",
+    "download.py": "4bd47fce82a08625ab6e3045dbf642ee7dc1d8b2bba4fc41b7b60e927bb0a0f9",
+    "evaluate.py": "55f4780f61cd00332440bd00e86243c49afc65226ed59b9658e04037e7d5b0c3",
+    "goldens.py": "868f3602d250ea0ee2c90db68b6012a10bd7f0ac862410359fe4231bd39feb64",
+    "protocol.py": "ef63901c5fe81dc4439d466f7bba1826d62b9bad1749d831759edd595edae9f7",
+    "train.py": "b6ccc09db43b56e8cdff4a4e6224a49fb23369538e2da8741c87ed258261cabf"
+  }
+}
