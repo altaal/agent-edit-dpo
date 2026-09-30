@@ -7,6 +7,8 @@ loop → the same evaluation before and after training**. It reuses
 [ACI Patch Agent](https://github.com/altaal/aci-patch-agent) at a pinned commit.
 The [plain-language six-week guide](https://github.com/altaal/aci-patch-agent/blob/main/WEEK_BY_WEEK.md)
 explains the weekly tasks, examples, budgets, and ship gates.
+This repository covers Weeks 5–6. In the sibling-project workspace, the guide's
+canonical editable source is `../WEEK_BY_WEEK.md`.
 
 ## What is included
 
