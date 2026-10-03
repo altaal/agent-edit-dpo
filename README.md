@@ -2,6 +2,11 @@
 
 Can a tiny preference-training run improve a small model's tool-driven code repairs?
 
+Start with the [Week 5–6 technical walkthrough](TECHNICAL_OVERVIEW.md): exact goals,
+changes from earlier weeks, source excerpts, and the path from one preference pair
+to training and the saved clamp evaluation files. The measured outcome was no
+improvement; the walkthrough separates learning value from that result.
+
 This repo connects **verified preference data → actual DPO training → an agent
 loop → the same evaluation before and after training**. It reuses
 [ACI Patch Agent](https://github.com/altaal/aci-patch-agent) at a pinned commit.
